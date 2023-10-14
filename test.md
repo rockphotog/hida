@@ -1,6 +1,6 @@
 # Hello
 
-**Normal* _markdown_ here. 
+**Normal** _markdown_ here. 
 
 <--
 @startuml firstDiagram
