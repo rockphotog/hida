@@ -1,0 +1,10 @@
+@startuml
+usecase "Få gjort noe"
+
+actor bruker
+actor hjelper
+
+bruker --> "Få gjort noe"
+hjelper --> "Få gjort noe"
+
+@enduml
