@@ -1,10 +1,12 @@
 @startuml
-usecase "Få gjort noe"
+usecase "Få gjort noe" 
+usecase "Utført en tjeneste"
 
 actor bruker
 actor hjelper
 
 bruker --> "Få gjort noe"
 hjelper --> "Få gjort noe"
+"Utført en tjeneste" ---|> "Få gjort noe"
 
 @enduml
