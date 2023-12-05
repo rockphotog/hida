@@ -24,28 +24,17 @@ _slik at innholdet bedre kan tolkes av konsumenter._
 
 ## Begrep brukt i veilederen
 
-**Produsent** er her en offentlig etat som produserer og publiserer offentlig ressurser (innhold, informasjon) beregnet på innbyggere og næringsliv. Innhold publiseres typisk ved hjelp av et publiseringssystem
-
-# 2
-.
+**Produsent** er her en offentlig etat som produserer og publiserer offentlig ressurser (innhold, informasjon) beregnet på innbyggere og næringsliv. Innhold publiseres typisk ved hjelp av et publiseringssystem[^2].
 
 **Konsument** er her programvare brukt av andre offentlige etater, innbyggere og næringsliv, slik som programvare-roboter (digitale assistenter, indekseringstjenester/søkemotorer, kunstig intelligens) og systemer for videre publisering.
 
-**Metadata** - Data om data, informasjon som beskriver annen informasjon, gjerne en elektronisk fil som et tekstdokument, bilde eller film.
+**Metadata** - Data om data, informasjon som beskriver annen informasjon, gjerne en elektronisk fil som et tekstdokument, bilde eller film.[^3]
 
-# 3
-
-**Offentlige ressurser på nett** - ressurser som offentlige virksomheter forvalter som er adresserte med HTTP eller HTTPS-protokollen
-
-# 4
-. Eksempelvis artikler og informasjon til innbyggere og næringsliv.
+**Offentlige ressurser på nett** - ressurser som offentlige virksomheter forvalter som er adresserte med HTTP eller HTTPS-protokollen[^4]. Eksempelvis artikler og informasjon til innbyggere og næringsliv.
 
 # Juridisk samhandlingsevne
 
-Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre normere hele eller deler av denne veilederen ved å gjøre den til en anbefalt eller obligatorisk standard i Referansekatalogen for IT-standarder
-
-# 5
-.
+Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre normere hele eller deler av denne veilederen ved å gjøre den til en anbefalt eller obligatorisk standard i Referansekatalogen for IT-standarder[^5].
 
 [Eventuelle eksisterende krav i Referansekatalogen som vil være aktuelle]
 
@@ -59,19 +48,15 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 **Konsument** – Se definisjon over.
 
-![](RackMultipart20231205-1-vzu8ca_html_998aaf823cee0aa.png)
+![](diagrams/veileder.png)
 
 _Figur 1 Archimate-diagram for organisatorisk samhandlingsevne [UML use case-diagram kan vurderes]_
 
 # Semantisk samhandlingsevne
 
-##
-
 Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og syntaks/format for utveksling av metadata.
 
-##
-
-## Informasjonsmodell
+### Informasjonsmodell
 
 ![](RackMultipart20231205-1-vzu8ca_html_5ee6e03c28053688.png)
 
@@ -99,10 +84,7 @@ _Figur 2 UML klassediagram for metadata_
 
 Los benyttes for kor koding av attributtet _tema_.
 
-Los er et felles vokabular som er temainndelt for å kategorisere og beskrive offentlige tjenester og ressurser
-
-# 7
-. Los brukes her primært for å kategorisere og beskrive offentlige sluttbrukertjenester og ressurser, samt å optimalisere søk på nettsider.
+Los er et felles vokabular som er temainndelt for å kategorisere og beskrive offentlige tjenester og ressurser[^7]. Los brukes her primært for å kategorisere og beskrive offentlige sluttbrukertjenester og ressurser, samt å optimalisere søk på nettsider.
 
 Det kodes på tre nivåer:
 
@@ -114,10 +96,7 @@ Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.
 
 ### Hovedspråk
 
-[TODO -\> nb|nn|en etc. som streng, ikke BCP-47
-
-# 8
-]
+[TODO -\> nb|nn|en etc. som streng, ikke BCP-47[^8].
 
 ## Syntaks/format
 
@@ -125,9 +104,7 @@ Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes m
 
 ### Kobling til schema.org
 
-Attributtene er hovedsaklig hentet fra _CreativeWork_
-
-# 9
+Attributtene er hovedsaklig hentet fra _CreativeWork_[^9].
 
 | **Metadata-felt** | **Schema.org** | **Datatype** |
 | --- | --- | --- |
@@ -163,7 +140,8 @@ En _konsument_ må ha programvare som kan lese og behandle informasjon, inkluder
 
 _Figur 3 Et lesbart eksempel på metadata som JSON-LD_
 
-\<script type="application/ld+json"\>
+```json
+<script type="application/ld+json"\>
 
 {
 
@@ -207,24 +185,23 @@ _Figur 3 Et lesbart eksempel på metadata som JSON-LD_
 
 }
 
-\</script\>
-
-_ess/eod/2023-12-05_
+</script\>
+```
 
 [^1]: Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
 
-[2](#sdfootnote2anc) Engelsk: Content management system (CMS)
+[^2]: Engelsk: Content management system (CMS)
 
-[3](#sdfootnote3anc)[metadata - Felles begrepskatalog](https://www.termportalen.no/FBK/bkg/20b2e2a5-9fe1-11e5-a9f8-e4115b280940)
+[^3]: [metadata - Felles begrepskatalog](https://www.termportalen.no/FBK/bkg/20b2e2a5-9fe1-11e5-a9f8-e4115b280940)
 
-[4](#sdfootnote4anc)[Peikarar til offentlege ressursar på nett | Digdir](https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492)
+[^4]: [Peikarar til offentlege ressursar på nett | Digdir](https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492)
 
-[5](#sdfootnote5anc)[Referansekatalogen for IT-standardar | Digdir](https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480)
+[^5]: [Referansekatalogen for IT-standardar | Digdir](https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480)
 
-[6](#sdfootnote6anc)[RFC 4122 - A Universally Unique IDentifier (UUID) URN Namespace (ietf.org)](https://datatracker.ietf.org/doc/html/rfc4122)
+[^6]: [RFC 4122 - A Universally Unique IDentifier (UUID) URN Namespace (ietf.org)](https://datatracker.ietf.org/doc/html/rfc4122)
 
-[7](#sdfootnote7anc)[Los - felles vokabular for klassifisering av offentlige tjenester og ressurser | Digdir](https://www.digdir.no/informasjonsforvaltning/los-felles-vokabular-klassifisering-av-offentlige-tjenester-og-ressurser/2434)
+[^7]: [Los - felles vokabular for klassifisering av offentlige tjenester og ressurser | Digdir](https://www.digdir.no/informasjonsforvaltning/los-felles-vokabular-klassifisering-av-offentlige-tjenester-og-ressurser/2434)
 
-[8](#sdfootnote8anc)[Information on BCP 47 » RFC Editor (rfc-editor.org)](https://www.rfc-editor.org/info/bcp47)
+[^8]: [Information on BCP 47 » RFC Editor (rfc-editor.org)](https://www.rfc-editor.org/info/bcp47)
 
-[9](#sdfootnote9anc)[CreativeWork - Schema.org Type](https://schema.org/CreativeWork)
+[^9]: [CreativeWork - Schema.org Type](https://schema.org/CreativeWork)
