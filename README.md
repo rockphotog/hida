@@ -48,7 +48,7 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 **Konsument** – Se definisjon over.
 
-<img width="350px" src="diagrams/organizational.png" />
+<img width="90%" src="diagrams/organizational.png" />
 
 _Figur 1 Archimate-diagram for organisatorisk samhandlingsevne [UML use case-diagram kan vurderes]_
 
@@ -58,7 +58,7 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 ## Informasjonsmodell
 
-<img width="350px" src="diagrams/veileder.png" alt="UML klassediagram for metadata" />
+<img width="90%" src="diagrams/veileder.png" alt="UML klassediagram for metadata" />
 
 _Figur 2 UML klassediagram for metadata_
 
@@ -138,49 +138,27 @@ _Figur 3 Et lesbart eksempel på metadata som JSON-LD_
 
 ```json
 <script type="application/ld+json"\>
-
 {
-
-"@context": "https://schema.org",
-
-"@type": "CreativeWork",
-
-"publisher": {
-
-"legalname" : "Digitaliseringsdirektoratet",
-
-"identifier" : "991 825 827"
-
-},
-
-"author": {
-
-"legalname" : "Digitaliseringsdirektoratet",
-
-"identifier" : "991 825 827"
-
-},
-
-"description" : "Et eksempel på en beskrivelse av innholdet",
-
-"inLanguage" : "nb",
-
-"identifier" : "b84c398f-ebcd-46a7-929f-eaab7728008e ",
-
-"about" : {
-
-"name" : "Bålbrenning",
-
-"additionalType" : "https://psi.norge.no/los/ord/balbrenning"
-
-},
-
-"headline" : "Regler for bålbrenning ved Økern Portal",
-
-"datePublished" : "2023-12-05"
-
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "publisher": {
+        "legalname" : "Digitaliseringsdirektoratet",
+        "identifier" : "991 825 827"
+    },
+    "author": {
+        "legalname" : "Digitaliseringsdirektoratet",
+        "identifier" : "991 825 827"
+    },
+    "description" : "Et eksempel på en beskrivelse av innholdet",
+    "inLanguage" : "nb",
+    "identifier" : "b84c398f-ebcd-46a7-929f-eaab7728008e ",
+    "about" : {
+        "name" : "Bålbrenning",
+        "additionalType" : "https://psi.norge.no/los/ord/balbrenning"
+     },
+    "headline" : "Regler for bålbrenning ved Økern Portal",
+    "datePublished" : "2023-12-05"
 }
-
 </script\>
 ```
 
