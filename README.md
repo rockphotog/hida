@@ -16,11 +16,11 @@ Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistan
 
 ## Anvendelse
 
-_Som produsent av offentlig informasjon,_
-
-_ønsker jeg at innhold publisert på internett er tilstrekkelig merket med metadata,_
-
-_slik at innholdet bedre kan tolkes av konsumenter._
+>_Som produsent av offentlig informasjon,_
+>
+>_ønsker jeg at innhold publisert på internett er tilstrekkelig merket med metadata,_
+>
+>_slik at innholdet bedre kan tolkes av konsumenter._
 
 ## Begrep brukt i veilederen
 
