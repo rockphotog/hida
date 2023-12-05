@@ -65,13 +65,10 @@ _Figur 2 UML klassediagram for metadata_
 | **Metadata-felt** | **Type** | **Krav** | **Beskrivelse** |
 | --- | --- | --- | --- |
 | **Utgiver** | enhet | Obligatorisk | Organisasjonen som publiserer teksten på eget nettsted |
-| --- | --- | --- | --- |
 | **Produsent** | enhet | Frivillig, flere er mulig | Organisasjonen som forfatter teksten |
 | **Beskrivelse** | tekst | Frivillig | Kort beskrivelse av tekstens innhold og kontekst |
 | **Hovedspråk** | kodet | Obligatorisk | Språket størstedelen av teksten er på, se _Kodeverk/terminologi_ |
-| **Identifikator** | tekst | Obligatorisk | Unik identifikator basert på UUID
-# 6
- |
+| **Identifikator** | tekst | Obligatorisk | Unik identifikator basert på UUID[^6] |
 | **Tema** | kodet | Obligatorisk, flere er mulig | Tekstens hovedtema basert på Los, se Kodeverk/terminologi. |
 | **Tittel** | tekst | Obligatorisk | Artikkelens tittel |
 | **Dato opprettet** | dato | Frivillig | Dato for publisering |
@@ -109,7 +106,6 @@ Attributtene er hovedsaklig hentet fra _CreativeWork_[^9].
 | **Metadata-felt** | **Schema.org** | **Datatype** |
 | --- | --- | --- |
 | **Utgiver** | publisher | Organization (legalName, identifier) |
-| --- | --- | --- |
 | **Produsent** | author | Organization (legalName, identifier) |
 | **Beskrivelse** | description | Text [| TextObject] |
 | **Hovedspråk** | inLanguage | Text [eller Language] |
