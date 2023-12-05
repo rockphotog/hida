@@ -116,9 +116,9 @@ Attributtene er hovedsaklig hentet fra _CreativeWork_[^9].
 | **Identifikator** | identifier | Text |
 | **Tema** | about | Thing (name, additionalType) |
 | **Tittel** | headline | Text |
-| **Dato opprettet** | datePublished | Date | DateTime |
-| **Dato sist oppdatert** | dateModified | Date | DateTime |
-| **Basert på** | isBasedOn | URL | CreativeWork | ~~Product~~ |
+| **Dato opprettet** | datePublished | Date / DateTime |
+| **Dato sist oppdatert** | dateModified | Date / DateTime |
+| **Basert på** | isBasedOn | URL |
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 

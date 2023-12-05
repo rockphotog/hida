@@ -6,7 +6,7 @@ archimate #Business "Offentlig ressurs" <<object>>
 archimate #Business Metadata <<object>>
 
 "Metadata" -* "Offentlig ressurs" : beskriver
-"produsent" --- "Offentlig ressurs" : publiserer
-"konsument" ---> "Offentlig ressurs" : leser
+"produsent" --- "Metadata" : publiserer
+"konsument" ---> "Metadata" : leser
 
 @enduml
