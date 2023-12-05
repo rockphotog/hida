@@ -1,6 +1,6 @@
 # Veileder for utveksling av metadata om offentlige ressurser på nett
 
-<span style="color:red">**UNDER UTVIKLING -- PÅGÅENDE ARBEID**</span>
+<span style="color:red">**UNDER UTVIKLING - PÅGÅENDE ARBEID**</span>
 
 Digitaliseringsdirektoratet, [xx.12.2023]
 
