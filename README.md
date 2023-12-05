@@ -132,7 +132,7 @@ En _konsument_ må ha programvare som kan lese og behandle informasjon, inkluder
 
 # Appendiks 1 – Eksempel på JSON-LD
 
-<img src="diagrams/example-1.png" alt="diagram" />
+<img width="90%" src="diagrams/example-1.png" alt="diagram" />
 _Figur 3 Et lesbart eksempel på metadata som JSON-LD_
 
 ```json
