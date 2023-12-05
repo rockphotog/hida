@@ -1,4 +1,4 @@
-## Veileder for utveksling av metadata om offentlige ressurser på nett
+# Veileder for utveksling av metadata om offentlige ressurser på nett
 
 Digitaliseringsdirektoratet, [xx.12.2023]
 
