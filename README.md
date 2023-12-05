@@ -14,7 +14,7 @@ Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistan
 
 [Litt mer tekst om behovet for bedret samhandling/helhetlig informasjon, utredning/analyse, om det passer]
 
-[Evt overordnede førende krav, som Los]
+[Evt overordnede førende krav, som Los, EU/Europa]
 
 ## Anvendelse
 
