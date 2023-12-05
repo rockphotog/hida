@@ -2,10 +2,8 @@
 
 Digitaliseringsdirektoratet, [xx.12.2023]
 
-Formål med dette notatet er at det kan utvikles til en fullverdig veileder. Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_
+Formål med dette notatet er at det kan utvikles til en fullverdig veileder. Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.
 
-# 1
-) og utprøves ved hjelp av smidig metode.
 # Behov
 
 ## Bakgrunn
@@ -213,7 +211,7 @@ _Figur 3 Et lesbart eksempel på metadata som JSON-LD_
 
 _ess/eod/2023-12-05_
 
-[1](#sdfootnote1anc) Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
+[^1]: Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
 
 [2](#sdfootnote2anc) Engelsk: Content management system (CMS)
 
