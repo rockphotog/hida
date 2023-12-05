@@ -111,7 +111,7 @@ Attributtene er hovedsaklig hentet fra _CreativeWork_[^9].
 | --- | --- | --- |
 | **Utgiver** | publisher | Organization (legalName, identifier) |
 | **Produsent** | author | Organization (legalName, identifier) |
-| **Beskrivelse** | description | Text [| TextObject] |
+| **Beskrivelse** | description | Text |
 | **Hovedspråk** | inLanguage | Text [eller Language] |
 | **Identifikator** | identifier | Text |
 | **Tema** | about | Thing (name, additionalType) |
