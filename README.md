@@ -48,6 +48,8 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 **Konsument** – Se definisjon over.
 
+<img width="350px" src="diagrams/organizational.png" />
+
 _Figur 1 Archimate-diagram for organisatorisk samhandlingsevne [UML use case-diagram kan vurderes]_
 
 # Semantisk samhandlingsevne
@@ -56,7 +58,7 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 ## Informasjonsmodell
 
-<img width="300px" src="diagrams/veileder.png" alt="UML klassediagram for metadata" />
+<img width="350px" src="diagrams/veileder.png" alt="UML klassediagram for metadata" />
 
 _Figur 2 UML klassediagram for metadata_
 
