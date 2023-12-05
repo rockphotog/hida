@@ -5,4 +5,5 @@
 - [PlantText](https://www.planttext.com) - online editor
 - [PlantUML](https://plantuml.com/) - specification/tools
 
-![use case example|300](usecase.png)  
+<img width="350px" src="usecase.png" />
+<img width="350px" src="veileder.png" />
