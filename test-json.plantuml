@@ -1,4 +1,4 @@
-<script type="application/ld+json">
+@startjson 
     {
         "@context": "https://schema.org",
         "@type": "CreativeWork",
@@ -20,4 +20,4 @@
         "headline" : "Regler for bålbrenning ved Økern Portal",
         "datePublished" : "2023-12-05"
       }
-</script>
+@endjson

@@ -1,6 +1,5 @@
 @startuml
 
-
 class Informasjon
 class Metadata {
 utgiver : enhet
@@ -12,7 +11,7 @@ identifikator : tekst
 tema : kodet [1..3]
 "dato opprettet" : dato
 "dato sist oppdatert" : dato [0..1]
-"basert på" : url
+"basert på" : url [0..*]
 }
 
 abstract class enhet {
@@ -28,7 +27,6 @@ class tema {
 Informasjon *-- Metadata : beskriver
 Metadata .. enhet
 Metadata .. tema
-
 
 @enduml
 
