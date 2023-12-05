@@ -50,9 +50,11 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 **Konsument** – Se definisjon over.
 
-<img width="90%" src="diagrams/organizational.png" />
+<img width="90%" src="diagrams/organizational-a.png" />
 
-_Figur 1 Archimate-diagram for organisatorisk samhandlingsevne [UML use case-diagram kan vurderes]_
+<img width="90%" src="diagrams/organizational-b.png" />
+
+_Figur 1 Archimate-diagram for organisatorisk samhandlingsevne [To utgaver, UML use case-diagram kan vurderes, samt UML sekvensdiagram]_
 
 # Semantisk samhandlingsevne
 

@@ -1,0 +1,12 @@
+@startuml
+archimate #Business "Produsent" as produsent <<actor>>
+archimate #Business "Konsument" as konsument <<actor>>
+
+archimate #Business "Offentlig ressurs" <<object>>
+archimate #Business Metadata <<object>>
+
+"Metadata" -* "Offentlig ressurs" : beskriver
+"produsent" --- "Offentlig ressurs" : publiserer
+"konsument" ---> "Offentlig ressurs" : leser
+
+@enduml
