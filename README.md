@@ -1,5 +1,7 @@
 # Veileder for utveksling av metadata om offentlige ressurser på nett
 
+<span style="color:red">**UNDER UTVIKLING -- PÅGÅENDE ARBEID**</span>
+
 Digitaliseringsdirektoratet, [xx.12.2023]
 
 Formål med dette notatet er at det kan utvikles til en fullverdig veileder. Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.
