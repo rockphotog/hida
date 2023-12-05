@@ -52,7 +52,7 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 <img width="90%" src="diagrams/organizational-a.png" />
 
-<img width="90%" src="diagrams/organizational-b.png" />
+<img width="60%" src="diagrams/organizational-b.png" />
 
 _Figur 1 Archimate-diagram for organisatorisk samhandlingsevne [To utgaver, UML use case-diagram kan vurderes, samt UML sekvensdiagram]_
 
