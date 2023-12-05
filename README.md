@@ -1,6 +1,6 @@
 # Veileder for utveksling av metadata om offentlige ressurser på nett
 
-<span style="color:red">**UNDER UTVIKLING - PÅGÅENDE ARBEID**</span>
+NB! **UNDER UTVIKLING - PÅGÅENDE ARBEID**
 
 Digitaliseringsdirektoratet, [xx.12.2023]
 
@@ -51,8 +51,8 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 **Konsument** – Se definisjon over.
 
 <!-- <img width="90%" src="diagrams/organizational-a.png" /> -->
-
-<img width="60%" src="diagrams/organizational-b.png" />
+<!-- Må bruke HTML for størrelse på bilder -->
+<img width="60%" src="diagrams/organizational-b.png" alt="archimate business diagram" />
 
 _**Figur 1** Archimate-diagram for organisatorisk samhandlingsevne [To utgaver, UML use case-diagram kan vurderes, samt UML sekvensdiagram]_
 
@@ -142,7 +142,7 @@ En _konsument_ må ha programvare som kan lese og behandle informasjon, inkluder
 
 <img width="90%" src="diagrams/example-1.png" alt="diagram" />
 
-_Figur 3 Et lesbart eksempel på metadata som JSON-LD_
+_**Figur 3** Et lesbart eksempel på metadata som JSON-LD_
 
 ```json
 <script type="application/ld+json"\>
