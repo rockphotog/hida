@@ -50,7 +50,7 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 **Konsument** – Se definisjon over.
 
-<img width="90%" src="diagrams/organizational-a.png" />
+<!-- <img width="90%" src="diagrams/organizational-a.png" /> -->
 
 <img width="60%" src="diagrams/organizational-b.png" />
 
@@ -165,6 +165,7 @@ _Figur 3 Et lesbart eksempel på metadata som JSON-LD_
 }
 </script\>
 ```
+
 
 [^1]: Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
 
