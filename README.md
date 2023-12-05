@@ -6,9 +6,9 @@ Digitaliseringsdirektoratet, [xx.12.2023]
 
 Formål med dette notatet er at det kan utvikles til en fullverdig veileder. Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.
 
-# Behov
+## Behov
 
-## Bakgrunn
+### Bakgrunn
 
 Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistanse_ (HIDA) hos Digitaliseringsdirektoratet.
 
@@ -16,7 +16,7 @@ Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistan
 
 [Evt overordnede førende krav, som Los, EU/Europa]
 
-## Anvendelse
+### Anvendelse
 
 >_Som produsent av offentlig informasjon,_
 >
@@ -24,7 +24,7 @@ Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistan
 >
 >_slik at innholdet bedre kan tolkes av konsumenter._
 
-## Begrep brukt i veilederen
+### Begrep brukt i veilederen
 
 **Produsent** er her en offentlig etat som produserer og publiserer offentlig ressurser (innhold, informasjon) beregnet på innbyggere og næringsliv. Innhold publiseres typisk ved hjelp av et publiseringssystem[^2].
 
@@ -34,13 +34,13 @@ Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistan
 
 **Offentlige ressurser på nett** - ressurser som offentlige virksomheter forvalter som er adresserte med HTTP eller HTTPS-protokollen[^4]. Eksempelvis artikler og informasjon til innbyggere og næringsliv.
 
-# Juridisk samhandlingsevne
+## Juridisk samhandlingsevne
 
 Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre normere hele eller deler av denne veilederen ved å gjøre den til en anbefalt eller obligatorisk standard i Referansekatalogen for IT-standarder[^5].
 
 [Eventuelle eksisterende krav i Referansekatalogen som vil være aktuelle]
 
-# Organisatorisk samhandlingsevne
+## Organisatorisk samhandlingsevne
 
 [Overordnet beskrivelse forretningsprosess]
 
@@ -54,17 +54,17 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 <img width="60%" src="diagrams/organizational-b.png" />
 
-_Figur 1 Archimate-diagram for organisatorisk samhandlingsevne [To utgaver, UML use case-diagram kan vurderes, samt UML sekvensdiagram]_
+_**Figur 1** Archimate-diagram for organisatorisk samhandlingsevne [To utgaver, UML use case-diagram kan vurderes, samt UML sekvensdiagram]_
 
-# Semantisk samhandlingsevne
+## Semantisk samhandlingsevne
 
 Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og syntaks/format for utveksling av metadata.
 
-## Informasjonsmodell
+### Informasjonsmodell
 
 <img width="60%" src="diagrams/veileder.png" alt="UML klassediagram for metadata" />
 
-_Figur 2 UML klassediagram for metadata_
+_**Figur 2** UML klassediagram for metadata_
 
 | **Metadata-felt** | **Type** | **Krav** | **Beskrivelse** |
 | --- | --- | --- | --- |
@@ -79,9 +79,9 @@ _Figur 2 UML klassediagram for metadata_
 | **Dato sist oppdatert** | dato | Frivillig | Dato for oppdatering |
 | **Basert på** | URL | Frivillig, flere er mulig | Peker til original(er) hvis dette er et derivat, for eksempel ved automatisk sammenstilling med kunstig intelligens. |
 
-## Kodeverk/terminologi
+### Kodeverk/terminologi
 
-### Tema
+#### Tema
 
 Los benyttes for kor koding av attributtet _tema_.
 
@@ -95,15 +95,15 @@ Det kodes på tre nivåer:
 
 Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.no/docs/los-dokumentasjon)
 
-### Hovedspråk
+#### Hovedspråk
 
 - [ ] TODO -\> nb|nn|en etc. som streng, ikke BCP-47[^8].
 
-## Syntaks/format
+### Syntaks/format
 
 Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes med CMS. Det finnes ingen dominerende standard. Mye brukte formater er JSON Linked Data (JSON-LD), RDFa og [Micodata]. Felles for disse er at de benytter vokabular beskrevet på Schema.org, et dugnadsdrevet arbeid med mål om å lage og forvalte [skjemaer] for strukturerte data på internett.
 
-### Kobling til schema.org
+#### Kobling til schema.org
 
 Attributtene er hovedsaklig hentet fra _CreativeWork_[^9].
 
@@ -122,7 +122,7 @@ Attributtene er hovedsaklig hentet fra _CreativeWork_[^9].
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
-# Teknisk samhandlingsevne
+## Teknisk samhandlingsevne
 
 En _produsent_ må ha et publiseringssystem som støtter én eller flere format. Denne veilederen presiserer støtte for JSON-LD bygd opp med vokabular fra Schema.org på artikkelnivå (side) som minimumskrav. Ytterligere formater f.eks. RDFa på artikkel- og blokknivå kan prøves ut.
 
@@ -130,15 +130,15 @@ Innholdet skal publiseres på internett fritt tilgjengelig og uten hinder.
 
 En _konsument_ må ha programvare som kan lese og behandle informasjon, inkludert metadata, fra produsentenes publiseringssystem. Det er et minimumskrav å kunne lese og behandle JSON-LD bygd opp med vokabular fra Schema.org.
 
-# Oppfølging
+## Oppfølging
 
 [Anbefaling om videre oppfølging av veilederen for å ferdigstille den hvis det er mangler (les: Los), anbefaling om prosess for utprøving (les: ETI, +), normering/forvaltning (f.eks. publisering via GitHub]
 
 ---
 
-# Appendiks A – Eksempler
+## Appendiks A – Eksempler
 
-## JSON-LD
+### JSON-LD
 
 <img width="90%" src="diagrams/example-1.png" alt="diagram" />
 
@@ -170,7 +170,7 @@ _Figur 3 Et lesbart eksempel på metadata som JSON-LD_
 </script\>
 ```
 
-# Appendix B - Verktøy
+## Appendix B - Verktøy
 
 - [PlantUML](https://plantuml.com/)
 - [PlantText Editor](https://www.planttext.com/)
