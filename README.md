@@ -93,7 +93,7 @@ Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.
 
 ### Hovedspråk
 
-[TODO -\> nb|nn|en etc. som streng, ikke BCP-47[^8].
+- [ ] TODO -\> nb|nn|en etc. som streng, ikke BCP-47[^8].
 
 ## Syntaks/format
 
