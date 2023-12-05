@@ -4,7 +4,7 @@
 class Informasjon
 class Metadata {
 utgiver : enhet
-produsent : enhet [0..1]
+produsent : enhet [0..*]
 beskrivelse : tekst [0..1]
 tittel : tekst
 hovedspråk : kodet
@@ -20,10 +20,14 @@ navn : tekst
 organisasjonsnummer : tekst
 }
 
+class tema {
+    navn : tekst
+    type : url
+}
+
 Informasjon *-- Metadata : beskriver
 Metadata .. enhet
-
-
+Metadata .. tema
 
 
 @enduml
