@@ -134,24 +134,6 @@ En _konsument_ må ha programvare som kan lese og behandle informasjon, inkluder
 
 [Anbefaling om videre oppfølging av veilederen for å ferdigstille den hvis det er mangler (les: Los), anbefaling om prosess for utprøving (les: ETI, +), normering/forvaltning (f.eks. publisering via GitHub]
 
-[^1]: Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
-
-[^2]: Engelsk: Content management system (CMS)
-
-[^3]: [metadata - Felles begrepskatalog](https://www.termportalen.no/FBK/bkg/20b2e2a5-9fe1-11e5-a9f8-e4115b280940)
-
-[^4]: [Peikarar til offentlege ressursar på nett | Digdir](https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492)
-
-[^5]: [Referansekatalogen for IT-standardar | Digdir](https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480)
-
-[^6]: [RFC 4122 - A Universally Unique IDentifier (UUID) URN Namespace (ietf.org)](https://datatracker.ietf.org/doc/html/rfc4122)
-
-[^7]: [Los - felles vokabular for klassifisering av offentlige tjenester og ressurser | Digdir](https://www.digdir.no/informasjonsforvaltning/los-felles-vokabular-klassifisering-av-offentlige-tjenester-og-ressurser/2434)
-
-[^8]: [Information on BCP 47 » RFC Editor (rfc-editor.org)](https://www.rfc-editor.org/info/bcp47)
-
-[^9]: [CreativeWork - Schema.org Type](https://schema.org/CreativeWork)
-
 ---
 
 # Appendiks A – Eksempler
@@ -193,3 +175,21 @@ _Figur 3 Et lesbart eksempel på metadata som JSON-LD_
 - [PlantUML](https://plantuml.com/)
 - [PlantText Editor](https://www.planttext.com/)
 - [Archi](https://www.archimatetool.com/) - archimate modelling
+
+[^1]: Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
+
+[^2]: Engelsk: Content management system (CMS)
+
+[^3]: [metadata - Felles begrepskatalog](https://www.termportalen.no/FBK/bkg/20b2e2a5-9fe1-11e5-a9f8-e4115b280940)
+
+[^4]: [Peikarar til offentlege ressursar på nett | Digdir](https://www.digdir.no/standarder/peikarar-til-offentlege-ressursar-pa-nett/1492)
+
+[^5]: [Referansekatalogen for IT-standardar | Digdir](https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480)
+
+[^6]: [RFC 4122 - A Universally Unique IDentifier (UUID) URN Namespace (ietf.org)](https://datatracker.ietf.org/doc/html/rfc4122)
+
+[^7]: [Los - felles vokabular for klassifisering av offentlige tjenester og ressurser | Digdir](https://www.digdir.no/informasjonsforvaltning/los-felles-vokabular-klassifisering-av-offentlige-tjenester-og-ressurser/2434)
+
+[^8]: [Information on BCP 47 » RFC Editor (rfc-editor.org)](https://www.rfc-editor.org/info/bcp47)
+
+[^9]: [CreativeWork - Schema.org Type](https://schema.org/CreativeWork)
