@@ -1,4 +1,4 @@
-# Veileder for utveksling av metadata om offentlige ressurser på nett
+# Utveksling av metadata om offentlige ressurser på nett
 
 NB! **UNDER UTVIKLING - PÅGÅENDE ARBEID**
 
@@ -6,11 +6,11 @@ HIDA-teamet, Digitaliseringsdirektoratet, [xx.12.2023]
 
 ## Mål
 
-Formål med dette notatet er at det kan utvikles til en fullverdig veileder som kan normeres av Digitaliseringsdirektoratet.  
+Formål med dette notatet er at det kan utvikles til en veileder som kan normeres av Digitaliseringsdirektoratet.  
 
 Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.  
 
-Metadatasettet skal testes ut i livshendelsen _Alvorlig sykt barn_ i prosjektet _Enklere tilgang til informasjon_ (ETI), drevet av Helsedirektoratet, i 2024.  
+Metadatasettet skal testes ut i livshendelsen [Alvorlig sykt barn](https://alvorligsyktbarn.no/) i prosjektet [Enklere tilgang til informasjon](https://alvorligsyktbarn.no/enklere-tilgang-til-informasjon) (ETI) i 2024.  
 
 ## Behov
 
