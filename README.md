@@ -50,9 +50,9 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 _**Figur 1** UML Use Case-diagram for organisatorisk samhandlingsevne_
 
-En _produsent_ (se definisjon over) sørger for å publisere informasjon på internett. Produsenten kan også oppdatere eller trekke tilbake informasjonen.
+En _produsent_ (se definisjon over) sørger for å publisere informasjon på internett. Produsenten kan også oppdatere eller trekke tilbake informasjonen. Informasjonen som publiseres må beskrives (metadata).
 
-En _konsument_ (se definisjon over) vil kunne lese informasjonen publisert av produsenten. En konsument kan bearbeide informasjonen og dele den videre, ved så å innta rollen som produsent.  
+En _konsument_ (se definisjon over) vil kunne lese informasjonen publisert av produsenten, inkludert metadata. En konsument kan bearbeide informasjonen og dele den videre, ved så å innta rollen som produsent.  
 
 <!-- <img width="90%" src="diagrams/organizational-alt-1.png" /> -->
 <!-- Må bruke HTML for størrelse på bilder -->
