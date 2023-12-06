@@ -2,11 +2,11 @@
 
 NB! **UNDER UTVIKLING - PÅGÅENDE ARBEID**
 
-Digitaliseringsdirektoratet, [xx.12.2023]
+HIDA-teamet, Digitaliseringsdirektoratet, [xx.12.2023]
 
 ## Mål
 
-Formål med dette notatet er at det kan utvikles til en fullverdig veileder.  
+Formål med dette notatet er at det kan utvikles til en fullverdig veileder som kan normeres av Digitaliseringsdirektoratet.  
 
 Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.  
 
