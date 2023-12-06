@@ -22,6 +22,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] Eksempel RDFa? Inline/blokker?
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
 - [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
+- [ ] Skrive videre på "Oppfølging", inkl forvaltning/forking av repo, etc.  
 
 ---
 
