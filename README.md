@@ -4,7 +4,13 @@ NB! **UNDER UTVIKLING - PÅGÅENDE ARBEID**
 
 Digitaliseringsdirektoratet, [xx.12.2023]
 
-Formål med dette notatet er at det kan utvikles til en fullverdig veileder. Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.
+## Mål
+
+Formål med dette notatet er at det kan utvikles til en fullverdig veileder.  
+
+Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.  
+
+Metadatasettet skal testes ut i livshendelsen _Alvorlig sykt barn_ i prosjektet _Enklere tilgang til informasjon_ (ETI), drevet av Helsedirektoratet, i 2024.  
 
 ## Behov
 
@@ -140,7 +146,7 @@ En _konsument_ må ha programvare som kan lese og behandle informasjon, inkluder
 
 ### JSON-LD
 
-<img width="90%" src="diagrams/example-1.png" alt="diagram" />
+<img width="90%" src="diagrams/example-json-ld-1.png" alt="diagram" />
 
 _**Figur 3** Et lesbart eksempel på metadata som JSON-LD_
 
