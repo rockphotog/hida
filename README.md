@@ -4,6 +4,22 @@ NB! **UNDER UTVIKLING - PÅGÅENDE ARBEID**
 
 HIDA-teamet, Digitaliseringsdirektoratet, [xx.12.2023]
 
+## Gjøremålsliste (midlertidig)
+
+- [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion)
+- [ ] Husk språkkoder 
+- [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord) ?
+- [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel.
+- [ ] Microdata - sjekk opp bru
+- [ ] Vurdere å henvise til praksis fra f.eks. Google/Microsoft
+- [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? SKal leses av maskiner, ikke folk.
+- [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og'.  
+- [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
+- [ ] Rydde i eller fjerne Archi-filen. 
+- [ ] Ett eksempel til med JSON-LD med flere nivåer
+- [ ] Eksempel RDFa? Inline/blokker?
+- [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
+
 ## Mål
 
 Formål med dette arbeidet er at det kan utvikles til en veileder som normeres av Digitaliseringsdirektoratet.  
@@ -93,7 +109,7 @@ Los benyttes for kor koding av attributtet _tema_.
 
 Los er et felles vokabular som er temainndelt for å kategorisere og beskrive offentlige tjenester og ressurser[^7]. Los brukes her primært for å kategorisere og beskrive offentlige sluttbrukertjenester og ressurser, samt å optimalisere søk på nettsider.
 
-Det kodes på tre nivåer:
+Det kan oppgis tre koder: [NB, se Gjøremålsliste]
 
 1. Det skal som minimum kodes med **hovedtema**
 2. Det er sterkt anbefalt og også kode med **undertema**
