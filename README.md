@@ -50,9 +50,9 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 **Konsument** – Se definisjon over.
 
-<!-- <img width="90%" src="diagrams/organizational-a.png" /> -->
+<!-- <img width="90%" src="diagrams/organizational-alt-1.png" /> -->
 <!-- Må bruke HTML for størrelse på bilder -->
-<img width="60%" src="diagrams/organizational-b.png" alt="archimate business diagram" />
+<img width="60%" src="diagrams/organizational.png" alt="archimate business diagram" />
 
 _**Figur 1** Archimate-diagram for organisatorisk samhandlingsevne [To utgaver, UML use case-diagram kan vurderes, samt UML sekvensdiagram]_
 
