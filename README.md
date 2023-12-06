@@ -88,6 +88,8 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 Dette er et subsett baseret på [publisere liste, DCAT etc?]
 
+<img width="60%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
+
 ### Informasjonsmodell
 
 <img width="60%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />

@@ -78,7 +78,6 @@
     <element xsi:type="archimate:ApplicationComponent" name="App for smarttelefon" id="id-3bf9b570431c4e188e4f81bcfdac810f"/>
     <element xsi:type="archimate:DataObject" name="RDFa" id="id-ea52c5720ecf40bf95932528194b9111"/>
     <element xsi:type="archimate:DataObject" name="Los" id="id-e795d6dc4dfb4b11b8eb06513ba6fdae"/>
-    <element xsi:type="archimate:DataObject" name="Schema.org" id="id-4014e583f032460284189f9868034381"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-c449a03fbb4d4e5bb7c661b8e343a952" type="technology">
     <element xsi:type="archimate:CommunicationNetwork" name="Internett" id="id-172e53ea6d2e41918d5bcac253db9ef9"/>
@@ -1174,7 +1173,7 @@ Informasjon om tjenester?</content>
             <sourceConnection xsi:type="archimate:Connection" id="id-56853938073c423394a482ae2001baac" source="id-a07ea7749f4b449f9e0227b26f7c6905" target="id-f00f8d2378144611a801348515de82da" archimateRelationship="id-09544d54556d4319b7e0bd102b5bcc26"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9bda6bec7464425396515a4f277238a6" targetConnections="id-4a45cd2154024f0487041b78f0239a59" archimateElement="id-7670256fb0fc454b831902cfe908cdca">
-            <bounds x="48" y="300" width="120" height="55"/>
+            <bounds x="48" y="288" width="120" height="55"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-d5ff2abd170e4480a04d4701c569ac03" archimateElement="id-2520f5fd2b1b4b8e8606c586d45710d8">
             <bounds x="48" y="564" width="120" height="55"/>
@@ -1187,9 +1186,6 @@ Informasjon om tjenester?</content>
           <child xsi:type="archimate:DiagramObject" id="id-f00f8d2378144611a801348515de82da" targetConnections="id-56853938073c423394a482ae2001baac" archimateElement="id-e795d6dc4dfb4b11b8eb06513ba6fdae">
             <bounds x="48" y="144" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-ce22a3c2b4dd4258962c1e761fe3081e" source="id-f00f8d2378144611a801348515de82da" target="id-3f682da5904f42c8af13722fb994e970" archimateRelationship="id-940c8f5bccb04ca68d02472654a76f41"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-b43d61ca4125463b8110cc73fc4a6f44" archimateElement="id-4014e583f032460284189f9868034381">
-            <bounds x="48" y="216" width="120" height="55"/>
           </child>
         </child>
       </element>
