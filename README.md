@@ -6,7 +6,7 @@ HIDA-teamet, Digitaliseringsdirektoratet, [xx.12.2023]
 
 ***Gjøremålsliste (midlertidig)***  
 
-Bruk gjerne [issues](issues) for å spille inn forslag/endringer/feil.  
+Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille inn forslag/endringer/feil.  
 
 - [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion)
 - [ ] Husk språkkoder  
