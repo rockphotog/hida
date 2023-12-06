@@ -62,7 +62,9 @@ _**Figur 2** Archimate-diagram for organisatorisk samhandlingsevne_
 
 ## Semantisk samhandlingsevne
 
-Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og syntaks/format for utveksling av metadata.
+Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og syntaks/format for utveksling av metadata. 
+
+Dette er et subsett baseret på [publisere liste, DCAT etc?]
 
 ### Informasjonsmodell
 
