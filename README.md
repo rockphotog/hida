@@ -6,7 +6,7 @@ HIDA-teamet, Digitaliseringsdirektoratet, [xx.12.2023]
 
 ## Mål
 
-Formål med dette notatet er at det kan utvikles til en veileder som kan normeres av Digitaliseringsdirektoratet.  
+Formål med dette arbeidet er at det kan utvikles til en veileder som normeres av Digitaliseringsdirektoratet.  
 
 Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.  
 
@@ -18,9 +18,10 @@ Metadatasettet skal testes ut i livshendelsen [Alvorlig sykt barn](https://alvor
 
 Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistanse_ (HIDA) hos Digitaliseringsdirektoratet.
 
-[Litt mer tekst om behovet for bedret samhandling/helhetlig informasjon, utredning/analyse, om det passer]
+Målet er å skape et helheltlig og brukervennlig informasjonstilbud for ulike brukergrupper og på tvers av offentlige tjenester. Det er i dag spesielt tidkrevende og komplekt for brukerne å finne relevant informasjon. En av grunnene er fraværet av felles regler og retningslinjer. Denne veilederen skal bidra til å bøte på det siste. 
 
-[Evt overordnede førende krav, som Los, EU/Europa]
+Les mer på Digitaliseringsbloggen: [Frå silo til samanheng](https://www.digdir.no/sammenhengende-tjenester/fra-silo-til-samanheng/5240)
+
 
 ### Anvendelse
 
