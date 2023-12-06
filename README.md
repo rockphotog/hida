@@ -8,13 +8,13 @@ HIDA-teamet, Digitaliseringsdirektoratet, [xx.12.2023]
 
 Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille inn forslag/endringer/feil.  
 
-- [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion)
+- [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion), mulig kobles på under "about"
 - [ ] Husk språkkoder  
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord) ?
 - [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel.
 - [ ] Microdata - sjekk opp bruk
 - [ ] Vurdere å henvise til praksis fra f.eks. Google/Microsoft
-- [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? Skal leses av maskiner, ikke folk. Fordel: Lesbarhet. Ulempe: Presedens ved feil.   
+- [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? Skal leses av maskiner, ikke folk. Fordel: Lesbarhet. Ulempe: Presedens ved feil.  
 - [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og  
 - [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
 - [ ] Rydde i eller fjerne Archi-filen  
