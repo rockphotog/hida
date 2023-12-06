@@ -1,4 +1,4 @@
-@startuml
+@startuml "Use case"
 usecase "Få gjort noe" 
 usecase "Utført en tjeneste"
 
