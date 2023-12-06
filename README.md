@@ -62,7 +62,7 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 ### Informasjonsmodell
 
-<img width="60%" src="diagrams/veileder.png" alt="UML klassediagram for metadata" />
+<img width="60%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
 _**Figur 2** UML klassediagram for metadata_
 
