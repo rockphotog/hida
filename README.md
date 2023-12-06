@@ -90,11 +90,13 @@ Dette er et subsett baseret på [publisere liste, DCAT etc?]
 
 <img width="60%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
 
+_**Figur 3a** Semantisk innhold i henhold til EIRA 6.0.0 (KLADD)_
+
 ### Informasjonsmodell
 
 <img width="60%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
-_**Figur 3** UML klassediagram for metadata_
+_**Figur 3b** UML klassediagram for metadata_
 
 | **Metadata-felt** | **Type** | **Krav** | **Beskrivelse** |
 | --- | --- | --- | --- |
