@@ -1,0 +1,19 @@
+@startuml "Use case A"
+usecase "Publisere" 
+usecase "Oppdatere"
+usecase "Trekke tilbake"
+usecase "Lese"
+usecase "Beskrive"
+
+actor Produsent
+actor Konsument
+
+Produsent --> Publisere
+Produsent -> Beskrive
+Beskrive --* Publisere
+Produsent --> Oppdatere
+Produsent --> "Trekke tilbake"
+Konsument --> Lese
+
+
+@enduml

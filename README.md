@@ -20,8 +20,7 @@ Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistan
 
 Målet er å skape et helheltlig og brukervennlig informasjonstilbud for ulike brukergrupper og på tvers av offentlige tjenester. Det er i dag spesielt tidkrevende og komplekt for brukerne å finne relevant informasjon. En av grunnene er fraværet av felles regler og retningslinjer. Denne veilederen skal bidra til å bøte på det siste. 
 
-Les mer på Digitaliseringsbloggen: [Frå silo til samanheng](https://www.digdir.no/sammenhengende-tjenester/fra-silo-til-samanheng/5240)
-
+Les mer på Digitaliseringsbloggen: [Frå silo til samanheng](https://www.digdir.no/sammenhengende-tjenester/fra-silo-til-samanheng/5240).
 
 ### Anvendelse
 
@@ -45,23 +44,21 @@ Les mer på Digitaliseringsbloggen: [Frå silo til samanheng](https://www.digdir
 
 Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre normere hele eller deler av denne veilederen ved å gjøre den til en anbefalt eller obligatorisk standard i Referansekatalogen for IT-standarder[^5].
 
-[Eventuelle eksisterende krav i Referansekatalogen som vil være aktuelle]
-
 ## Organisatorisk samhandlingsevne
 
-[Overordnet beskrivelse forretningsprosess]
+<img width="60%" src="diagrams/usecase-a.png" alt="UML use case diagram" />
 
-[Aktører]
+_**Figur 1** UML Use Case-diagram for organisatorisk samhandlingsevne_
 
-**Produsent** – Se definisjon over.
+En _produsent_ (se definisjon over) sørger for å publisere informasjon på internett. Produsenten kan også oppdatere eller trekke tilbake informasjonen.
 
-**Konsument** – Se definisjon over.
+En _konsument_ (se definisjon over) vil kunne lese informasjonen publisert av produsenten. En konsument kan bearbeide informasjonen og dele den videre, ved så å innta rollen som produsent.  
 
 <!-- <img width="90%" src="diagrams/organizational-alt-1.png" /> -->
 <!-- Må bruke HTML for størrelse på bilder -->
 <img width="60%" src="diagrams/organizational.png" alt="archimate business diagram" />
 
-_**Figur 1** Archimate-diagram for organisatorisk samhandlingsevne [To utgaver, UML use case-diagram kan vurderes, samt UML sekvensdiagram]_
+_**Figur 2** Archimate-diagram for organisatorisk samhandlingsevne_
 
 ## Semantisk samhandlingsevne
 
@@ -71,7 +68,7 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 <img width="60%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
-_**Figur 2** UML klassediagram for metadata_
+_**Figur 3** UML klassediagram for metadata_
 
 | **Metadata-felt** | **Type** | **Krav** | **Beskrivelse** |
 | --- | --- | --- | --- |
@@ -149,7 +146,7 @@ En _konsument_ må ha programvare som kan lese og behandle informasjon, inkluder
 
 <img width="90%" src="diagrams/example-json-ld-1.png" alt="diagram" />
 
-_**Figur 3** Et lesbart eksempel på metadata som JSON-LD_
+_**Figur 4** Et lesbart eksempel på metadata som JSON-LD_
 
 ```json
 <script type="application/ld+json"\>
