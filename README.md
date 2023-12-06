@@ -14,7 +14,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel.
 - [ ] Microdata - sjekk opp bruk
 - [ ] Vurdere å henvise til praksis fra f.eks. Google/Microsoft
-- [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? SKal leses av maskiner, ikke folk  
+- [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? Skal leses av maskiner, ikke folk. Fordel: Lesbarhet. Ulempe: Presedens ved feil.   
 - [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og  
 - [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
 - [ ] Rydde i eller fjerne Archi-filen  
