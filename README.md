@@ -109,7 +109,7 @@ Dette er et subsett baseret på [publisere liste, DCAT etc?]. Minimumskrav komme
 - [Obligatorisk for [datasett](https://data.norge.no/guide/veileder-beskrivelse-av-datasett): beskrivelse, identifikator, tema, tittel, utgiver]
 - [Anbefalt: begrep, ble generert ved, datasettdistribusjon, dekningsområde, emneord, følger, kontaktpunkt, tidsrom, tilgangsnivå]
 
-<img width="60%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
+<img width="50%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
 _**Figur 4** UML klassediagram for metadata_
 

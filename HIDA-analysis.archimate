@@ -64,7 +64,9 @@
     <element xsi:type="archimate:DataObject" name="Forms Structure" id="id-f4027cf43e96451589169f33229d8068"/>
     <element xsi:type="archimate:DataObject" name="Data Format" id="id-0d49ebd7b26d4a239b44881e1a586474"/>
     <element xsi:type="archimate:DataObject" name="Controlled Voculabury" id="id-eb3303378891458aa9af32f77f7fb666"/>
-    <element xsi:type="archimate:DataObject" name="JSON-RD" id="id-2520f5fd2b1b4b8e8606c586d45710d8"/>
+    <element xsi:type="archimate:DataObject" name="JSON-LD" id="id-2520f5fd2b1b4b8e8606c586d45710d8">
+      <documentation>JSON Linked Data</documentation>
+    </element>
     <element xsi:type="archimate:DataObject" name="Artikkel" id="id-f9f3a1b497c14ab3a80f230a4c794080"/>
     <element xsi:type="archimate:DataObject" name="Informasjon" id="id-7908a112c2044496b002c7e1a2fc58ae"/>
     <element xsi:type="archimate:ApplicationComponent" name="Portal" id="id-58dda78f202e41638c3432c8385d78fb"/>
