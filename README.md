@@ -203,10 +203,12 @@ _**Figur 6** Et lesbart eksempel på metadata som JSON-LD_
     "@context": "https://schema.org",
     "@type": "CreativeWork",
     "publisher": {
+        "@type" : "Organization",
         "legalname" : "Digitaliseringsdirektoratet",
         "identifier" : "991 825 827"
     },
     "author": {
+        "@type" : "Organization",
         "legalname" : "Digitaliseringsdirektoratet",
         "identifier" : "991 825 827"
     },
@@ -216,9 +218,9 @@ _**Figur 6** Et lesbart eksempel på metadata som JSON-LD_
     "about" : {
         "name" : "Bålbrenning",
         "additionalType" : "https://psi.norge.no/los/ord/balbrenning"
-     },
+    },
     "headline" : "Regler for bålbrenning ved Økern Portal",
-    "datePublished" : "2023-12-05"
+    "datePublished" : "2023-12-07"
 }
 </script\>
 ```

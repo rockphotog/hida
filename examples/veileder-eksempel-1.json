@@ -4,12 +4,12 @@
     "publisher": {
         "@type" : "Organization",
         "legalname" : "Digitaliseringsdirektoratet",
-        "identifier" : "991 825 827" 
-    },   
+        "identifier" : "991 825 827"
+    },
     "author": {
         "@type" : "Organization",
         "legalname" : "Digitaliseringsdirektoratet",
-        "identifier" : "991 825 827" 
+        "identifier" : "991 825 827"
     },
     "description" : "Et eksempel på en beskrivelse av innholdet",
     "inLanguage" : "nb",
@@ -20,4 +20,4 @@
     },
     "headline" : "Regler for bålbrenning ved Økern Portal",
     "datePublished" : "2023-12-05"
-  }
+}
