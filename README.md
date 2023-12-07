@@ -195,8 +195,6 @@ En *konsument* må ha programvare som kan lese og behandle informasjon, inkluder
 
 ### JSON-LD
 
-#### Bålbrenning
-
 <img width="90%" src="diagrams/example-json-ld-1.png" alt="diagram" />
 
 ***Figur 6** Et lesbart eksempel på metadata som JSON-LD*
@@ -229,9 +227,17 @@ En *konsument* må ha programvare som kan lese og behandle informasjon, inkluder
 </script\>
 ```
 
-#### Kombinasjon av meta (html) og JSON-LD
+### html/meta, RDFa og JSON-LD
 
-Eksempel med kombinasjon meta-tags og JSON-LD fra en ordinær SEO-plugin: [Eksempel - Tatt fra undertegnedes hjemmeside](examples/seland.org.html)
+Eksempel med kombinasjon meta-tags, JSON-LD og RDFa fra en ordinær SEO-plugin. 
+
+[Eksempel - Tatt fra undertegnedes hjemmeside](examples/seland.org.html)
+
+RDFa er i prinsippet "property"-attributtene som utvider "meta.
+
+```html
+<meta property="og:type" content="website" />
+```
 
 ## Appendix B - Verktøy
 
