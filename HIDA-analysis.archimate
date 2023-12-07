@@ -1203,7 +1203,7 @@ https://github.com/Informasjonsforvaltning/behov/issues/444
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Styring og forvaltning av sammen-hengende tjenester" id="id-83a92e1269bf479e99a142ef8f87ac1a"/>
     </folder>
-    <folder name="Figurer til veielder" id="id-732fcddc10bb4c81ae3ab6ef642d0daf">
+    <folder name="Figurer til veileder på GitHub" id="id-732fcddc10bb4c81ae3ab6ef642d0daf">
       <element xsi:type="archimate:ArchimateDiagramModel" name="Organisatorisk" id="id-89362f34a0054899a2299072b4e5b1d1">
         <child xsi:type="archimate:DiagramObject" id="id-6185d04a742e4cd89c97c1aa3a783492" targetConnections="id-420390f90e3648e9a9989df09d4faef4" archimateElement="id-7670256fb0fc454b831902cfe908cdca">
           <bounds x="264" y="48" width="120" height="55"/>
@@ -1296,6 +1296,16 @@ https://github.com/Informasjonsforvaltning/behov/issues/444
 
 https://github.com/Informasjonsforvaltning/behov/issues/444
 </documentation>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="technical" id="id-3cd3b8e9f9e9421ea900f28ad083bdee">
+        <child xsi:type="archimate:DiagramObject" id="id-0c7325ed1e594fefb048ac7451154452" archimateElement="id-172e53ea6d2e41918d5bcac253db9ef9">
+          <bounds x="48" y="48" width="120" height="55"/>
+          <sourceConnection id="id-67e29c7afb7f4976ba57db7dffa07ab0" source="id-0c7325ed1e594fefb048ac7451154452" target="id-7af031c83d2f46b1aa5e11f4d86ef684"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-7af031c83d2f46b1aa5e11f4d86ef684" targetConnections="id-67e29c7afb7f4976ba57db7dffa07ab0" textAlignment="1">
+          <bounds x="216" y="48" width="185" height="55"/>
+          <content>Ingen slipper unna</content>
+        </child>
       </element>
     </folder>
     <element xsi:type="archimate:ArchimateDiagramModel" name="Oversikt" id="id-a54143363c024b6ca84c2beb1e83810d">

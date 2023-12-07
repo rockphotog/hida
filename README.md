@@ -98,7 +98,7 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 <img width="50%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
 
-_**Figur 3a** Semantisk innhold i henhold til EIRA 6.0.0 (KLADD)_
+_**Figur 3** Semantisk innhold i henhold til EIRA 6.0.0 (KLADD)_
 
 ### Informasjonsmodell
 
@@ -110,7 +110,7 @@ Dette er et subsett baseret på [publisere liste, DCAT etc?]. Minimumskrav komme
 
 <img width="60%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
-_**Figur 3b** UML klassediagram for metadata_
+_**Figur 4** UML klassediagram for metadata_
 
 | **Metadata-felt** | **Type** | **Krav** | **Beskrivelse** |
 | --- | --- | --- | --- |
@@ -170,6 +170,10 @@ Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
 ## Teknisk samhandlingsevne
 
+<img src="diagrams/technical.png" width="90%" alt="" />
+
+_**Figur 5** Teknisk samhandlingsevne beskrevet med ArchiMate [også humor]_
+
 En _produsent_ må ha et publiseringssystem som støtter én eller flere format. Denne veilederen presiserer støtte for JSON-LD bygd opp med vokabular fra Schema.org på artikkelnivå (side) som minimumskrav. Ytterligere formater f.eks. RDFa på artikkel- og blokknivå kan prøves ut.
 
 Innholdet skal publiseres på internett fritt tilgjengelig og uten hinder.
@@ -188,7 +192,7 @@ En _konsument_ må ha programvare som kan lese og behandle informasjon, inkluder
 
 <img width="90%" src="diagrams/example-json-ld-1.png" alt="diagram" />
 
-_**Figur 4** Et lesbart eksempel på metadata som JSON-LD_
+_**Figur 6** Et lesbart eksempel på metadata som JSON-LD_
 
 ```json
 <script type="application/ld+json"\>
