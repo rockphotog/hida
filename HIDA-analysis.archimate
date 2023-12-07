@@ -81,7 +81,9 @@
     <element xsi:type="archimate:DataObject" name="Schema.org" id="id-4014e583f032460284189f9868034381"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-c449a03fbb4d4e5bb7c661b8e343a952" type="technology">
-    <element xsi:type="archimate:CommunicationNetwork" name="internet" id="id-172e53ea6d2e41918d5bcac253db9ef9"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="internet" id="id-172e53ea6d2e41918d5bcac253db9ef9">
+      <documentation>Internet, as we know it! </documentation>
+    </element>
     <element xsi:type="archimate:TechnologyInterface" name="API" id="id-63affdd36d7947adae76aa20f3420fbc"/>
     <element xsi:type="archimate:Device" name="Smarttelefon" id="id-1ccf3ad7eaab463c93f6c67e58c71478"/>
     <element xsi:type="archimate:Node" name="norge.no" id="id-8e7193034c434d11902454ec819173b7"/>
@@ -111,7 +113,9 @@ Kilde: https://www.digdir.no/felleslosninger/maskinporten/869 </documentation>
     <element xsi:type="archimate:TechnologyInterface" name="API for (etat-klienter)" id="id-2440369462294d99bdddcc4dfa8c6c20"/>
     <element xsi:type="archimate:Node" name="Sentral forvaltning?" id="id-dfe0552225cb45abac81bff211d5ff59"/>
     <element xsi:type="archimate:Node" name="data.altinn.no" id="id-0e223df49f7844f69029d1b5f8769ed8"/>
-    <element xsi:type="archimate:SystemSoftware" name="CMS" id="id-96708dff4d26458cb5f7af876e1ebe64"/>
+    <element xsi:type="archimate:SystemSoftware" name="CMS" id="id-96708dff4d26458cb5f7af876e1ebe64">
+      <documentation>Content Management System</documentation>
+    </element>
     <element xsi:type="archimate:SystemSoftware" name="scraper / browser" id="id-ec98dfebd01e41728f33de619e5b87c0"/>
   </folder>
   <folder name="Motivation" id="id-3c582cb619ac4971aabd1bbc3a26e79f" type="motivation">
@@ -1305,15 +1309,15 @@ https://github.com/Informasjonsforvaltning/behov/issues/444
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="technical" id="id-3cd3b8e9f9e9421ea900f28ad083bdee">
         <child xsi:type="archimate:DiagramObject" id="id-0c7325ed1e594fefb048ac7451154452" targetConnections="id-0c7f3d6b1b1740b0b991d546f5abc2e4" archimateElement="id-172e53ea6d2e41918d5bcac253db9ef9">
-          <bounds x="24" y="90" width="300" height="37"/>
+          <bounds x="204" y="24" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-fa2c142fb8084e4a9a1debb1355c055b" source="id-0c7325ed1e594fefb048ac7451154452" target="id-5ce9d0d840e34028836d5759b66791d1" archimateRelationship="id-c2caee146cf24f65a1e2242df372c879"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-17857a8542ab45458b31f01f3a143540" archimateElement="id-96708dff4d26458cb5f7af876e1ebe64">
-          <bounds x="24" y="24" width="120" height="37"/>
+          <bounds x="36" y="24" width="120" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-0c7f3d6b1b1740b0b991d546f5abc2e4" source="id-17857a8542ab45458b31f01f3a143540" target="id-0c7325ed1e594fefb048ac7451154452" archimateRelationship="id-a7fb6678bdc1404b81685e863cc5425f"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-5ce9d0d840e34028836d5759b66791d1" targetConnections="id-fa2c142fb8084e4a9a1debb1355c055b" archimateElement="id-ec98dfebd01e41728f33de619e5b87c0">
-          <bounds x="156" y="24" width="168" height="37"/>
+          <bounds x="372" y="24" width="120" height="55"/>
         </child>
       </element>
     </folder>
