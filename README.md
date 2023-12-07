@@ -236,8 +236,9 @@ Eksempel med kombinasjon meta-tags, JSON-LD og RDFa fra en ordinær SEO-plugin.
 RDFa er i prinsippet "property"-attributtene som utvider "meta.
 
 ```html
-<meta property="og:type" content="website" />
+<meta property="og:title" content="Regler for bålbrenning ved Økern Portal" />
 ```
+Namespacet *og* betyr [Open Graph](https://ogp.me/).
 
 ## Appendix B - Verktøy
 
