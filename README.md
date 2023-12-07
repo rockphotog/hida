@@ -232,6 +232,7 @@ En *konsument* må ha programvare som kan lese og behandle informasjon, inkluder
 - [PlantUML](https://plantuml.com/)
 - [PlantText Editor](https://www.planttext.com/)
 - [Archi](https://www.archimatetool.com/) - archimate modelling
+- [Validator for Schema.org](https://validator.schema.org/)
 
 [^1]: Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
 
