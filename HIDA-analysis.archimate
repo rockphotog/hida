@@ -72,7 +72,7 @@
     <element xsi:type="archimate:ApplicationInterface" name="REST API" id="id-5a17927794384dadaa23869b86fed24f"/>
     <element xsi:type="archimate:ApplicationInterface" name="Nettside" id="id-45143a7e30a041d5bf13159fd9964dcb"/>
     <element xsi:type="archimate:DataObject" name="Ontology" id="id-b2c9fe51573a44f59b7fc481f34f0cad"/>
-    <element xsi:type="archimate:DataObject" name="&quot;EU-kodeverk&quot;" id="id-38320c3ff0c24df8acce374aed029e1a"/>
+    <element xsi:type="archimate:DataObject" name="Data theme Named Authority List (EU)" id="id-38320c3ff0c24df8acce374aed029e1a"/>
     <element xsi:type="archimate:ApplicationService" name="Informasjonstjeneste" id="id-11137961dd514c4fa77fc966d37a5d32"/>
     <element xsi:type="archimate:ApplicationComponent" name="AI-motor" id="id-a903653b168b4c7d8d3b795dba063ed8"/>
     <element xsi:type="archimate:ApplicationComponent" name="App for smarttelefon" id="id-3bf9b570431c4e188e4f81bcfdac810f"/>
@@ -357,6 +357,8 @@ https://www.digdir.no/media/3567/download
     <element xsi:type="archimate:AssociationRelationship" id="id-a120f609e82e4e85b8ca8575a74588fb" source="id-7670256fb0fc454b831902cfe908cdca" target="id-458e77241b3e40bcb722830143a12f67"/>
     <element xsi:type="archimate:SpecializationRelationship" id="id-940c8f5bccb04ca68d02472654a76f41" source="id-e795d6dc4dfb4b11b8eb06513ba6fdae" target="id-eb3303378891458aa9af32f77f7fb666"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-09544d54556d4319b7e0bd102b5bcc26" source="id-38320c3ff0c24df8acce374aed029e1a" target="id-e795d6dc4dfb4b11b8eb06513ba6fdae"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-075d823fa0964a1cb592e2c770b8a5c6" source="id-4014e583f032460284189f9868034381" target="id-0d49ebd7b26d4a239b44881e1a586474"/>
+    <element xsi:type="archimate:SpecializationRelationship" id="id-bc816f235ef9484cac991d448bda6746" source="id-4014e583f032460284189f9868034381" target="id-eb3303378891458aa9af32f77f7fb666"/>
   </folder>
   <folder name="Views" id="id-0e2dde8075dc4204a7f173005ac39bf5" type="diagrams">
     <folder name="HIDA" id="id-2b3120c559e848ef8f28e5e02a8be4ed">
@@ -1130,11 +1132,11 @@ Informasjon om tjenester?</content>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Semantisk samhandlingsevne" id="id-7d83f42198b24a9caeb693d374bb2337">
         <child xsi:type="archimate:Group" id="id-1382c6c3d3c54c11ab798b22a4963c63" name="EIRA 6.0.0 Semantic Functional content (utvalg)" textAlignment="1">
-          <bounds x="46" y="34" width="313" height="685"/>
-          <child xsi:type="archimate:DiagramObject" id="id-cf298b424f514fd6b49b66d8b3ffabff" targetConnections="id-632ab17273a54003a0307f6b591a7bad" archimateElement="id-0d49ebd7b26d4a239b44881e1a586474">
+          <bounds x="46" y="34" width="303" height="759"/>
+          <child xsi:type="archimate:DiagramObject" id="id-cf298b424f514fd6b49b66d8b3ffabff" targetConnections="id-632ab17273a54003a0307f6b591a7bad id-dfbf59e91b8141f888a23cd138be61eb" archimateElement="id-0d49ebd7b26d4a239b44881e1a586474">
             <bounds x="84" y="480" width="120" height="55"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-3f682da5904f42c8af13722fb994e970" targetConnections="id-417e27fc851e4450ab0139525e768087 id-ce22a3c2b4dd4258962c1e761fe3081e" archimateElement="id-eb3303378891458aa9af32f77f7fb666">
+          <child xsi:type="archimate:DiagramObject" id="id-3f682da5904f42c8af13722fb994e970" targetConnections="id-417e27fc851e4450ab0139525e768087 id-ce22a3c2b4dd4258962c1e761fe3081e id-a9230819d56a488a9e845cc800c18a5c" archimateElement="id-eb3303378891458aa9af32f77f7fb666">
             <bounds x="84" y="54" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-73eb9e3cd5d0462abeecd0bed63f8095" source="id-3f682da5904f42c8af13722fb994e970" target="id-ffb63c0a85b344abbaad286c996068a2" archimateRelationship="id-9b4290f7c44b4fde88fe4a2ec220d0b5">
               <bendpoint startX="-96" startY="3" endX="-96" endY="-327"/>
@@ -1163,15 +1165,24 @@ Informasjon om tjenester?</content>
             <sourceConnection xsi:type="archimate:Connection" id="id-632ab17273a54003a0307f6b591a7bad" source="id-ffb63c0a85b344abbaad286c996068a2" target="id-cf298b424f514fd6b49b66d8b3ffabff" archimateRelationship="id-3470325252d44cefbe8267ec00d6449f"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a96301d252e240af8282e63c1a242312" targetConnections="id-6c24401b9e814c72b728a5ac1eafa687 id-bde8045b4dfe44388867404ed8b241f7 id-2421397f59064bf5b50adadb81149e3f" archimateElement="id-d743be65086a4f0e856fb082a855358d">
-            <bounds x="84" y="564" width="120" height="55"/>
+            <bounds x="84" y="564" width="120" height="109"/>
           </child>
         </child>
         <child xsi:type="archimate:Group" id="id-9b430294b83848c4b2f2c94292bb4cfd" name="HIDA" textAlignment="1">
-          <bounds x="394" y="34" width="217" height="685"/>
+          <bounds x="384" y="34" width="217" height="759"/>
           <child xsi:type="archimate:DiagramObject" id="id-a07ea7749f4b449f9e0227b26f7c6905" archimateElement="id-38320c3ff0c24df8acce374aed029e1a">
             <bounds x="48" y="48" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-417e27fc851e4450ab0139525e768087" source="id-a07ea7749f4b449f9e0227b26f7c6905" target="id-3f682da5904f42c8af13722fb994e970" archimateRelationship="id-b9c3d386ef1842968abd39d63829e521"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-56853938073c423394a482ae2001baac" source="id-a07ea7749f4b449f9e0227b26f7c6905" target="id-f00f8d2378144611a801348515de82da" archimateRelationship="id-09544d54556d4319b7e0bd102b5bcc26"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-f00f8d2378144611a801348515de82da" targetConnections="id-56853938073c423394a482ae2001baac" archimateElement="id-e795d6dc4dfb4b11b8eb06513ba6fdae">
+            <bounds x="48" y="144" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-ce22a3c2b4dd4258962c1e761fe3081e" source="id-f00f8d2378144611a801348515de82da" target="id-3f682da5904f42c8af13722fb994e970" archimateRelationship="id-940c8f5bccb04ca68d02472654a76f41"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b43d61ca4125463b8110cc73fc4a6f44" archimateElement="id-4014e583f032460284189f9868034381">
+            <bounds x="48" y="468" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-a9230819d56a488a9e845cc800c18a5c" source="id-b43d61ca4125463b8110cc73fc4a6f44" target="id-3f682da5904f42c8af13722fb994e970" archimateRelationship="id-bc816f235ef9484cac991d448bda6746"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-dfbf59e91b8141f888a23cd138be61eb" source="id-b43d61ca4125463b8110cc73fc4a6f44" target="id-cf298b424f514fd6b49b66d8b3ffabff" archimateRelationship="id-075d823fa0964a1cb592e2c770b8a5c6"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9bda6bec7464425396515a4f277238a6" targetConnections="id-4a45cd2154024f0487041b78f0239a59" archimateElement="id-7670256fb0fc454b831902cfe908cdca">
             <bounds x="48" y="300" width="120" height="55"/>
@@ -1181,17 +1192,14 @@ Informasjon om tjenester?</content>
             <sourceConnection xsi:type="archimate:Connection" id="id-6c24401b9e814c72b728a5ac1eafa687" source="id-d5ff2abd170e4480a04d4701c569ac03" target="id-a96301d252e240af8282e63c1a242312" archimateRelationship="id-10917439a6e5463fb60f0ea30b75a19e"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-a238eea35c04422e89cc868e7901ef8a" archimateElement="id-ea52c5720ecf40bf95932528194b9111">
-            <bounds x="48" y="480" width="120" height="55"/>
+            <bounds x="48" y="624" width="120" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-2421397f59064bf5b50adadb81149e3f" source="id-a238eea35c04422e89cc868e7901ef8a" target="id-a96301d252e240af8282e63c1a242312" archimateRelationship="id-4ee0c2695f40424491a5ba625b239ff8"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-f00f8d2378144611a801348515de82da" targetConnections="id-56853938073c423394a482ae2001baac" archimateElement="id-e795d6dc4dfb4b11b8eb06513ba6fdae">
-            <bounds x="48" y="144" width="120" height="55"/>
-            <sourceConnection xsi:type="archimate:Connection" id="id-ce22a3c2b4dd4258962c1e761fe3081e" source="id-f00f8d2378144611a801348515de82da" target="id-3f682da5904f42c8af13722fb994e970" archimateRelationship="id-940c8f5bccb04ca68d02472654a76f41"/>
-          </child>
-          <child xsi:type="archimate:DiagramObject" id="id-b43d61ca4125463b8110cc73fc4a6f44" archimateElement="id-4014e583f032460284189f9868034381">
-            <bounds x="48" y="216" width="120" height="55"/>
-          </child>
         </child>
+        <documentation>https://data.europa.eu/data/datasets/data-theme?locale=en
+
+https://github.com/Informasjonsforvaltning/behov/issues/444
+</documentation>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Styring og forvaltning av sammen-hengende tjenester" id="id-83a92e1269bf479e99a142ef8f87ac1a"/>
     </folder>
