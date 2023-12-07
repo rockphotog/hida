@@ -12,8 +12,8 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 
 _Felles diskusjon_
 
-- [ ] Kun mulig med én "about" - løsning? Nederste? Krever strengt hierarki, lite brukervennlig
-- [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion), mulig kobles på under "about"
+- [ ] Kun mulig med én "about" - løsning? Nederste? Krever strengt hierarki - er ikke det nå, lite brukervennlig
+- [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion), mulig kobles på under "about" - bedre støtte under f.eks "Product", "Service". 
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
 - [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel.
 - [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? Skal leses av maskiner, ikke folk. Fordel: Lesbarhet. Ulempe: Presedens ved feil.  
@@ -136,9 +136,9 @@ Los er et felles vokabular som er temainndelt for å kategorisere og beskrive of
 
 Det kan oppgis tre koder: [NB, se Gjøremålsliste]
 
-1. Det skal som minimum kodes med **hovedtema**
-2. Det er sterkt anbefalt og også kode med **undertema**
-3. Det er anbefalt å kode med **emneord**
+1. Det skal som minimum kodes med **hovedtema** - [temastruktur](https://psi.norge.no/los/struktur.html)
+2. Det er sterkt anbefalt å kode med **undertema** - [teama](https://psi.norge.no/los/ontologi/tema.html)
+3. Det er anbefalt å kode med **emneord** - [ord](https://psi.norge.no/los/ontologi/ord.html)
 
 Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.no/docs/los-dokumentasjon)
 
