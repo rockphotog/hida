@@ -231,7 +231,7 @@ En *konsument* må ha programvare som kan lese og behandle informasjon, inkluder
 
 #### Kombinasjon av meta (html) og JSON-LD
 
-[Eksempel - Tatt fra undertegnedes hjemmeside](examples/seland.org.html)
+Eksempel med kombinasjon meta-tags og JSON-LD fra en ordinær SEO-plugin: [Eksempel - Tatt fra undertegnedes hjemmeside](examples/seland.org.html)
 
 ## Appendix B - Verktøy
 
