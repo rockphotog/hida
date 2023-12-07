@@ -175,9 +175,9 @@ Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
 ![ArchiMate-diagram](diagrams/technical.png)
 
-_**Figur 5** Teknisk samhandlingsevne beskrevet med ArchiMate [også humor]_
+_**Figur 5** Teknisk samhandlingsevne beskrevet med ArchiMate_
 
-En _produsent_ må ha et publiseringssystem som støtter én eller flere format. Denne veilederen presiserer støtte for JSON-LD bygd opp med vokabular fra Schema.org på artikkelnivå (side) som minimumskrav. Ytterligere formater f.eks. RDFa på artikkel- og blokknivå kan prøves ut.
+En _produsent_ må ha et publiseringssystem som støtter ett eller flere format. Denne veilederen presiserer støtte for JSON-LD bygd opp med vokabular fra Schema.org på artikkelnivå (web-side) som minimumskrav. Ytterligere formater f.eks. RDFa på artikkel- og blokknivå kan prøves ut.
 
 Innholdet skal publiseres på internett fritt tilgjengelig og uten hinder.
 
