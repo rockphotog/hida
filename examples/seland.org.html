@@ -18,11 +18,17 @@
 <script type="application/ld+json" class="aioseo-schema">
     {
         "@context":"https:\/\/schema.org",
-        "@graph":[{"@type":"BreadcrumbList",
-        "@id":"https:\/\/www.seland.org\/#breadcrumblist",
-        "itemListElement":[{"@type":"ListItem",
-        "@id":"https:\/\/www.seland.org\/#listItem",
-        "position":1,"name":"Home"}]},
+        "@graph":[
+            {
+                "@type":"BreadcrumbList",
+                "@id":"https:\/\/www.seland.org\/#breadcrumblist",
+                "itemListElement":[
+                {
+                    "@type":"ListItem",
+                    "@id":"https:\/\/www.seland.org\/#listItem",
+                    "position":1,"name":"Home"
+                }]
+        },
         {
             "@type":"CollectionPage",
             "@id":"https:\/\/www.seland.org\/#collectionpage",
@@ -46,29 +52,29 @@
         {
             "@type":"Person",
             "@id":"https:\/\/www.seland.org\/#person",
-            "name":"Espen Stranger Seland"},
+            "name":"Espen Stranger Seland"
+        },
+        {
+            "@type":"WebSite",
+            "@id":"https:\/\/www.seland.org\/#website",
+            "url":"https:\/\/www.seland.org\/",
+            "name":"Espen Stranger Seland",
+            "description":"Rock'n'Roll Photographer",
+            "inLanguage":"en-US","publisher":
             {
-                "@type":"WebSite",
-                "@id":"https:\/\/www.seland.org\/#website",
-                "url":"https:\/\/www.seland.org\/",
-                "name":"Espen Stranger Seland",
-                "description":"Rock'n'Roll Photographer",
-                "inLanguage":"en-US","publisher":
+                "@id":"https:\/\/www.seland.org\/#person"
+            },
+            "potentialAction":
+            {
+                "@type":"SearchAction",
+                "target":
                 {
-                    "@id":"https:\/\/www.seland.org\/#person"
+                    "@type":"EntryPoint",
+                    "urlTemplate":"https:\/\/www.seland.org\/?s={search_term_string}"
                 },
-                "potentialAction":
-                {
-                    "@type":"SearchAction",
-                    "target":
-                    {
-                        "@type":"EntryPoint",
-                        "urlTemplate":"https:\/\/www.seland.org\/?s={search_term_string}"
-                    },
-                    "query-input":"required name=search_term_string"
-                }
+                "query-input":"required name=search_term_string"
             }
-            ]
-        }
+        }]
+    }
 </script>
 <!-- All in One SEO -->
