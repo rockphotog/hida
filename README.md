@@ -10,7 +10,7 @@ Denne siden forvaltes på GitHub: [https://github.com/rockphotog/hida](https://g
 
 Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille inn forslag/endringer/feil.  
 
-_Diskusjon_
+_Felles diskusjon_
 
 - [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion), mulig kobles på under "about"
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord) ?
@@ -21,9 +21,10 @@ _Diskusjon_
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
 - [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
 
-_Espen_
+_Redaktør_
 
-- [ ] Husk språkkoder - endelig forslag til bruk 
+- [ ] Husk språkkoder - endelig forslag til bruk  
+- [ ] Finne og referere til minimumskravene JY nevnte
 - [ ] Microdata - sjekk opp bruk
 - [ ] Skrive videre på "Oppfølging", inkl forvaltning/forking av repo, etc. 
 - [ ] Ett eksempel til med JSON-LD med flere nivåer
@@ -91,15 +92,19 @@ _**Figur 2** Archimate-diagram for organisatorisk samhandlingsevne_
 
 ## Semantisk samhandlingsevne
 
-Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og syntaks/format for utveksling av metadata. 
-
-Dette er et subsett baseret på [publisere liste, DCAT etc?]
+Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og syntaks/format for utveksling av metadata.  
 
 <img width="60%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
 
 _**Figur 3a** Semantisk innhold i henhold til EIRA 6.0.0 (KLADD)_
 
 ### Informasjonsmodell
+
+Dette er et subsett baseret på [publisere liste, DCAT etc?]. Minimumskrav kommer fra 
+
+- [_ESS_ **ikke** denne kilden jeg tenker på, dog:]
+- [Obligatorisk for [datasett](https://data.norge.no/guide/veileder-beskrivelse-av-datasett): beskrivelse, identifikator, tema, tittel, utgiver]
+- [Anbefalt: begrep, ble generert ved, datasettdistribusjon, dekningsområde, emneord, følger, kontaktpunkt, tidsrom, tilgangsnivå]
 
 <img width="60%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
