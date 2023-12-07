@@ -6,33 +6,33 @@ HIDA-teamet, Digitaliseringsdirektoratet, [xx.12.2023]
 
 Denne siden forvaltes på GitHub: [https://github.com/rockphotog/hida](https://github.com/rockphotog/hida)
 
-***Gjøremålsliste (midlertidig)***  
+## Gjøremålsliste (midlertidig)  
 
 Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille inn forslag/endringer/feil.  
 
-_Felles diskusjon_
+### Felles diskusjon
 
 - [ ] Kun mulig med én "about" - løsning? Nederste? Krever strengt hierarki - er ikke det nå, lite brukervennlig
-- [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion), mulig kobles på under "about" - bedre støtte under f.eks "Product", "Service". 
+- [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion), mulig kobles på under "about" - bedre støtte under f.eks "Product", "Service"
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
-- [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel.
-- [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? Skal leses av maskiner, ikke folk. Fordel: Lesbarhet. Ulempe: Presedens ved feil.  
+- [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel
+- [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? Skal leses av maskiner, ikke folk. Fordel: Lesbarhet. Ulempe: Presedens ved feil  
 - [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og'  
 - [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
 - [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
 - [ ] [Finne eller lage regel for hva som kvalifiserer for å være "(sist) oppdatert"](https://github.com/rockphotog/hida/issues/1)
 
-_Annet_
+### Annet
 
 - [ ] Husk språkkoder - endelig forslag til bruk  
-- [ ] Følge opp mapping EY/Los-mapping: https://github.com/Informasjonsforvaltning/behov/issues/444 
+- [ ] Følge opp mapping EY/Los-mapping: [https://github.com/Informasjonsforvaltning/behov/issues/444](https://github.com/Informasjonsforvaltning/behov/issues/444)
 - [ ] Finne og referere til minimumskravene JY nevnte
 - [ ] Microdata - sjekk opp bruk
-- [ ] Skrive videre på "Oppfølging", inkl forvaltning/forking av repo, etc. 
+- [ ] Skrive videre på "Oppfølging", inkl forvaltning/forking av repo, etc.
 - [ ] Ett eksempel til med JSON-LD med flere nivåer
 - [ ] Eksempel RDFa? Inline/blokker?
-- [ ] Rydde i eller fjerne Archi-filen 
+- [ ] Rydde i eller fjerne Archi-filen
 - [ ] Vurdere å henvise til praksis fra f.eks. Google/Microsoft
 
 ---
@@ -41,7 +41,7 @@ _Annet_
 
 Formål med dette arbeidet er at det kan utvikles til en veileder som normeres av Digitaliseringsdirektoratet.  
 
-Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (_MVP_[^1] ) og utprøves ved hjelp av smidig metode.  
+Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (*MVP*[^1] ) og utprøves ved hjelp av smidig metode.  
 
 Metadatasettet skal testes ut i livshendelsen [Alvorlig sykt barn](https://alvorligsyktbarn.no/) i prosjektet [Enklere tilgang til informasjon](https://alvorligsyktbarn.no/enklere-tilgang-til-informasjon) (ETI) i 2024.  
 
@@ -49,19 +49,19 @@ Metadatasettet skal testes ut i livshendelsen [Alvorlig sykt barn](https://alvor
 
 ### Bakgrunn
 
-Veilederen er utviklet som en del av _Helhetlig informasjon for digital assistanse_ (HIDA) hos Digitaliseringsdirektoratet.
+Veilederen er utviklet som en del av *Helhetlig informasjon for digital assistanse* (HIDA) hos Digitaliseringsdirektoratet.
 
-Målet er å skape et helheltlig og brukervennlig informasjonstilbud for ulike brukergrupper og på tvers av offentlige tjenester. Det er i dag spesielt tidkrevende og komplekt for brukerne å finne relevant informasjon. En av grunnene er fraværet av felles regler og retningslinjer. Denne veilederen skal bidra til å bøte på det siste. 
+Målet er å skape et helheltlig og brukervennlig informasjonstilbud for ulike brukergrupper og på tvers av offentlige tjenester. Det er i dag spesielt tidkrevende og komplekt for brukerne å finne relevant informasjon. En av grunnene er fraværet av felles regler og retningslinjer. Denne veilederen skal bidra til å bøte på det siste.
 
 Les mer på Digitaliseringsbloggen: [Frå silo til samanheng](https://www.digdir.no/sammenhengende-tjenester/fra-silo-til-samanheng/5240).
 
 ### Anvendelse
 
->_Som produsent av offentlig informasjon,_
+>*Som produsent av offentlig informasjon,*
 >
->_ønsker jeg at innhold publisert på internett er tilstrekkelig merket med metadata,_
+>*ønsker jeg at innhold publisert på internett er tilstrekkelig merket med metadata,*
 >
->_slik at innholdet bedre kan tolkes av konsumenter._
+>*slik at innholdet bedre kan tolkes av konsumenter.*
 
 ### Begrep brukt i veilederen
 
@@ -81,17 +81,18 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 <img width="60%" src="diagrams/usecase-a.png" alt="UML use case diagram" />
 
-_**Figur 1** UML Use Case-diagram for organisatorisk samhandlingsevne_
+***Figur 1** UML Use Case-diagram for organisatorisk samhandlingsevne*
 
-En _produsent_ sørger for å publisere informasjon på internett. Produsenten kan også oppdatere eller trekke tilbake informasjonen. Informasjonen som publiseres må beskrives (metadata).
+En *produsent* sørger for å publisere informasjon på internett. Produsenten kan også oppdatere eller trekke tilbake informasjonen. Informasjonen som publiseres må beskrives (metadata).
 
-En _konsument_ vil kunne lese informasjonen publisert av produsenten, inkludert metadata. En konsument kan bearbeide informasjonen og dele den videre, ved så å innta rollen som produsent.  
+En *konsument* vil kunne lese informasjonen publisert av produsenten, inkludert metadata. En konsument kan bearbeide informasjonen og dele den videre, ved så å innta rollen som produsent.  
 
 <!-- <img width="90%" src="diagrams/organizational-alt-1.png" /> -->
 <!-- Må bruke HTML for størrelse på bilder -->
+
 <img width="60%" src="diagrams/organizational.png" alt="archimate business diagram" />
 
-_**Figur 2** Archimate-diagram for organisatorisk samhandlingsevne_
+***Figur 2** Archimate-diagram for organisatorisk samhandlingsevne*
 
 ## Semantisk samhandlingsevne
 
@@ -99,28 +100,28 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 <img width="50%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
 
-_**Figur 3** Semantisk innhold i henhold til EIRA 6.0.0 (KLADD)_
+***Figur 3** Semantisk innhold i henhold til EIRA 6.0.0 (KLADD)*
 
 ### Informasjonsmodell
 
-Dette er et subsett baseret på [publisere liste, DCAT etc?]. Minimumskrav kommer fra 
+Dette er et subsett baseret på [publisere liste, DCAT etc?]. Minimumskrav kommer fra:
 
-- [_ESS_ **ikke** denne kilden jeg tenker på, dog:]
+- [*ESS* **ikke** denne kilden jeg tenker på, dog:]
 - [Obligatorisk for [datasett](https://data.norge.no/guide/veileder-beskrivelse-av-datasett): beskrivelse, identifikator, tema, tittel, utgiver]
 - [Anbefalt: begrep, ble generert ved, datasettdistribusjon, dekningsområde, emneord, følger, kontaktpunkt, tidsrom, tilgangsnivå]
 
 <img width="50%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
-_**Figur 4** UML klassediagram for metadata_
+***Figur 4** UML klassediagram for metadata*
 
 | **Metadata-felt** | **Type** | **Krav** | **Beskrivelse** |
 | --- | --- | --- | --- |
 | **Utgiver** | enhet | Obligatorisk | Organisasjonen som publiserer teksten på eget nettsted |
 | **Produsent** | enhet | Frivillig, flere er mulig | Organisasjonen som forfatter teksten |
 | **Beskrivelse** | tekst | Frivillig | Kort beskrivelse av tekstens innhold og kontekst |
-| **Hovedspråk** | kodet | Obligatorisk | Språket størstedelen av teksten er på, se _Kodeverk/terminologi_ |
+| **Hovedspråk** | kodet | Obligatorisk | Språket størstedelen av teksten er på, se *Kodeverk/terminologi* |
 | **Identifikator** | tekst | Obligatorisk | Unik identifikator basert på UUID[^6] |
-| **Tema** | kodet | Obligatorisk, flere er mulig | Tekstens hovedtema basert på Los, se Kodeverk/terminologi. |
+| **Tema** | kodet | Obligatorisk, flere er mulig | Tekstens hovedtema basert på Los, se *Kodeverk/terminologi*. |
 | **Tittel** | tekst | Obligatorisk | Artikkelens tittel |
 | **Dato opprettet** | dato | Frivillig | Dato for publisering |
 | **Dato sist oppdatert** | dato | Frivillig | Dato for oppdatering |
@@ -130,7 +131,7 @@ _**Figur 4** UML klassediagram for metadata_
 
 #### Tema
 
-Los benyttes for kor koding av attributtet _tema_.
+Los benyttes for kor koding av attributtet *tema*.
 
 Los er et felles vokabular som er temainndelt for å kategorisere og beskrive offentlige tjenester og ressurser[^7]. Los brukes her primært for å kategorisere og beskrive offentlige sluttbrukertjenester og ressurser, samt å optimalisere søk på nettsider.
 
@@ -152,7 +153,7 @@ Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes m
 
 #### Kobling til schema.org
 
-Attributtene er hovedsaklig hentet fra _CreativeWork_[^9].
+Attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
 
 | **Metadata-felt** | **Schema.org** | **Datatype** |
 | --- | --- | --- |
@@ -175,13 +176,13 @@ Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
 ![ArchiMate-diagram](diagrams/technical.png)
 
-_**Figur 5** Teknisk samhandlingsevne beskrevet med ArchiMate_
+***Figur 5** Teknisk samhandlingsevne beskrevet med ArchiMate*
 
-En _produsent_ må ha et publiseringssystem som støtter ett eller flere format. Denne veilederen presiserer støtte for JSON-LD bygd opp med vokabular fra Schema.org på artikkelnivå (web-side) som minimumskrav. Ytterligere formater f.eks. RDFa på artikkel- og blokknivå kan prøves ut.
+En *produsent* må ha et publiseringssystem som støtter ett eller flere format. Denne veilederen presiserer støtte for JSON-LD bygd opp med vokabular fra Schema.org på artikkelnivå (web-side) som minimumskrav. Ytterligere formater f.eks. RDFa på artikkel- og blokknivå kan prøves ut.
 
 Innholdet skal publiseres på internett fritt tilgjengelig og uten hinder.
 
-En _konsument_ må ha programvare som kan lese og behandle informasjon, inkludert metadata, fra produsentenes publiseringssystem. Det er et minimumskrav å kunne lese og behandle JSON-LD bygd opp med vokabular fra Schema.org.
+En *konsument* må ha programvare som kan lese og behandle informasjon, inkludert metadata, fra produsentenes publiseringssystem. Det er et minimumskrav å kunne lese og behandle JSON-LD bygd opp med vokabular fra Schema.org.
 
 ## Oppfølging
 
@@ -195,7 +196,7 @@ En _konsument_ må ha programvare som kan lese og behandle informasjon, inkluder
 
 <img width="90%" src="diagrams/example-json-ld-1.png" alt="diagram" />
 
-_**Figur 6** Et lesbart eksempel på metadata som JSON-LD_
+***Figur 6** Et lesbart eksempel på metadata som JSON-LD*
 
 ```json
 <script type="application/ld+json"\>
