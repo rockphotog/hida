@@ -170,7 +170,9 @@ Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
 ## Teknisk samhandlingsevne
 
-<img src="diagrams/technical.png" width="90%" alt="" />
+<!-- <img src="diagrams/technical.png" width="90%" alt="ArchiMate-diagram" /> -->
+
+![ArchiMate-diagram](diagrams/technical.png)
 
 _**Figur 5** Teknisk samhandlingsevne beskrevet med ArchiMate [også humor]_
 
