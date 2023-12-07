@@ -21,9 +21,10 @@ _Felles diskusjon_
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
 - [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
 
-_Redaktør_
+_Annet_
 
 - [ ] Husk språkkoder - endelig forslag til bruk  
+- [ ] Følge opp mapping EY/Los-mapping: https://github.com/Informasjonsforvaltning/behov/issues/444 
 - [ ] Finne og referere til minimumskravene JY nevnte
 - [ ] Microdata - sjekk opp bruk
 - [ ] Skrive videre på "Oppfølging", inkl forvaltning/forking av repo, etc. 
@@ -94,7 +95,7 @@ _**Figur 2** Archimate-diagram for organisatorisk samhandlingsevne_
 
 Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og syntaks/format for utveksling av metadata.  
 
-<img width="60%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
+<img width="50%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
 
 _**Figur 3a** Semantisk innhold i henhold til EIRA 6.0.0 (KLADD)_
 
