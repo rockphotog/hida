@@ -20,6 +20,7 @@ _Felles diskusjon_
 - [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
 - [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
+- [ ] Regler for hva som kvalifiserer for å være "(sist) oppdatert"? Gir datoen mening?
 
 _Annet_
 
