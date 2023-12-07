@@ -216,7 +216,7 @@ En *konsument* må ha programvare som kan lese og behandle informasjon, inkluder
     },
     "description" : "Et eksempel på en beskrivelse av innholdet",
     "inLanguage" : "nb",
-    "identifier" : "b84c398f-ebcd-46a7-929f-eaab7728008e ",
+    "identifier" : "b84c398f-ebcd-46a7-929f-eaab7728008e",
     "about" : {
         "name" : "Bålbrenning",
         "additionalType" : "https://psi.norge.no/los/ord/balbrenning"
