@@ -35,6 +35,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] Eksempel RDFa? Inline/blokker?
 - [ ] Rydde i eller fjerne Archi-filen
 - [ ] Vurdere å henvise til praksis fra f.eks. Google/Microsoft
+- [ ] Note to self: https://informasjonsforvaltning.github.io/cdvno/ (Takk, Lilia!)
 
 ---
 
@@ -105,9 +106,9 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 ### Informasjonsmodell
 
-Dette er et subsett baseret på [publisere liste, DCAT etc?]. Minimumskrav kommer fra:
+Dette er et subsett baseret på [TODO]. Minimumskrav kommer fra:
 
-- [*ESS* **ikke** denne kilden jeg tenker på, dog:]
+- [https://informasjonsforvaltning.github.io/cdvno/](https://informasjonsforvaltning.github.io/cdvno/)
 - [Obligatorisk for [datasett](https://data.norge.no/guide/veileder-beskrivelse-av-datasett): beskrivelse, identifikator, tema, tittel, utgiver]
 - [Anbefalt: begrep, ble generert ved, datasettdistribusjon, dekningsområde, emneord, følger, kontaktpunkt, tidsrom, tilgangsnivå]
 
