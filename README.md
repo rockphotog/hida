@@ -140,7 +140,7 @@ Los er et felles vokabular som er temainndelt for å kategorisere og beskrive of
 Det kan oppgis tre koder: [NB, se Gjøremålsliste]
 
 1. Det skal som minimum kodes med **hovedtema** - [temastruktur](https://psi.norge.no/los/struktur.html)
-2. Det er sterkt anbefalt å kode med **undertema** - [teama](https://psi.norge.no/los/ontologi/tema.html)
+2. Det er sterkt anbefalt å kode med **undertema** - [tema](https://psi.norge.no/los/ontologi/tema.html)
 3. Det er anbefalt å kode med **emneord** - [ord](https://psi.norge.no/los/ontologi/ord.html)
 
 Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.no/docs/los-dokumentasjon)
