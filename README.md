@@ -12,7 +12,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 
 ### Felles diskusjon
 
-- [ ] Kun mulig med én "about" - løsning? Nederste? Krever strengt hierarki - er ikke det nå, lite brukervennlig
+- [ ] [Kun mulig med én "about" - løsning?](https://github.com/rockphotog/hida/issues/2)
 - [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion), mulig kobles på under "about" - bedre støtte under f.eks "Product", "Service"
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
 - [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel
@@ -141,7 +141,7 @@ Det kan oppgis tre koder: [NB, se Gjøremålsliste]
 
 1. Det skal som minimum kodes med **hovedtema** - [temastruktur](https://psi.norge.no/los/struktur.html)
 2. Det er sterkt anbefalt å kode med **undertema** - [tema](https://psi.norge.no/los/ontologi/tema.html)
-3. Det er anbefalt å kode med **emneord** - [ord](https://psi.norge.no/los/ontologi/ord.html)
+3. Det er anbefalt å kode med ett eller flere **emneord** - [ord](https://psi.norge.no/los/ontologi/ord.html)
 
 Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.no/docs/los-dokumentasjon)
 
@@ -164,13 +164,15 @@ Attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
 | **Beskrivelse** | description | Text |
 | **Hovedspråk** | inLanguage | Text [eller Language] |
 | **Identifikator** | identifier | Text |
-| **Tema** | about | Thing (name, additionalType) |
+| **Tema** | about | Thing (name, additionalType) **NB!** |
 | **Tittel** | headline | Text |
 | **Dato opprettet** | datePublished | Date / DateTime |
 | **Dato sist oppdatert** | dateModified | Date / DateTime |
 | **Basert på** | isBasedOn | URL |
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
+
+**NB!** Det er ikke mulig å følge kravene til beskrivelse av tema i feltet "about" alene. Inntil videre foreslås det å kode med **undertema** (nivå 2). Se problembeskrivelse i [issue 2](https://github.com/rockphotog/hida/issues/2)
 
 ## Teknisk samhandlingsevne
 
