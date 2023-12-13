@@ -22,12 +22,13 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
 - [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
 - [ ] [Finne eller lage regel for hva som kvalifiserer for å være "(sist) oppdatert"](https://github.com/rockphotog/hida/issues/1)
+- [ ] Vurdere å slå dette dokumentet sammen med [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/) 
 
 ### Annet
 
 - [ ] Husk språkkoder - endelig forslag til bruk  
 - [ ] Følge opp mapping EY/Los-mapping: [https://github.com/Informasjonsforvaltning/behov/issues/444](https://github.com/Informasjonsforvaltning/behov/issues/444)
-- [ ] Finne og referere til minimumskravene JY nevnte
+- [x] Finne og referere til minimumskravene JY nevnte
 - [ ] Gjøre om fotnoter til direkte lenker der det er naturlig
 - [ ] Microdata - sjekk opp bruk
 - [ ] Skrive videre på "Oppfølging", inkl forvaltning/forking av repo, etc.
@@ -35,7 +36,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] Eksempel RDFa? Inline/blokker?
 - [ ] Rydde i eller fjerne Archi-filen
 - [ ] Vurdere å henvise til praksis fra f.eks. Google/Microsoft
-- [ ] Note to self: https://informasjonsforvaltning.github.io/cdvno/ (Takk, Lilia!)
+- [x] Note to self: https://informasjonsforvaltning.github.io/cdvno/ (Takk, Lilia!)
 
 ---
 
@@ -106,11 +107,7 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 ### Informasjonsmodell
 
-Dette er et subsett baseret på [TODO]. Minimumskrav kommer fra:
-
-- [https://informasjonsforvaltning.github.io/cdvno/](https://informasjonsforvaltning.github.io/cdvno/)
-- [Obligatorisk for [datasett](https://data.norge.no/guide/veileder-beskrivelse-av-datasett): beskrivelse, identifikator, tema, tittel, utgiver]
-- [Anbefalt: begrep, ble generert ved, datasettdistribusjon, dekningsområde, emneord, følger, kontaktpunkt, tidsrom, tilgangsnivå]
+Dette er et subsett baseret på [TODO referanse til HIDA-arbeid våren 2023]. Minimumskrav er hentetfra [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/). Disse to dokumentene er overlappende og kan slås sammen.  
 
 <img width="50%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
