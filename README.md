@@ -107,7 +107,7 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 ### Informasjonsmodell
 
-Dette er et subsett baseret på [TODO referanse til HIDA-arbeid våren 2023]. Minimumskrav er hentetfra [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/). Disse to dokumentene er overlappende og kan slås sammen.  
+Dette er et subsett baseret på [TODO referanse til HIDA-arbeid våren 2023]. Minimumskrav er hentet fra [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/). Disse to dokumentene er overlappende og kan vurderes slått sammen.  
 
 <img width="50%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
@@ -187,7 +187,7 @@ En *konsument* må ha programvare som kan lese og behandle informasjon, inkluder
 
 ## Oppfølging
 
-[Anbefaling om videre oppfølging av veilederen for å ferdigstille den hvis det er mangler (les: Los), anbefaling om prosess for utprøving (les: ETI, +), normering/forvaltning (f.eks. publisering via GitHub]
+[Anbefaling om videre oppfølging av veilederen for å ferdigstille den hvis det er mangler (les: Los), anbefaling om prosess for utprøving (les: ETI, +), normering/forvaltning (f.eks. publisering via GitHub)]
 
 ---
 

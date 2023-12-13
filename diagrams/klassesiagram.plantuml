@@ -8,7 +8,7 @@ beskrivelse : tekst [0..1]
 tittel : tekst
 hovedspråk : kodet
 identifikator : tekst
-tema : kodet [1..3]
+tema : kodet [1..*]
 "dato opprettet" : dato
 "dato sist oppdatert" : dato [0..1]
 "basert på" : url [0..*]
