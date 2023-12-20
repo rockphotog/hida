@@ -15,8 +15,8 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] [Kun mulig med én "about" - løsning?](https://github.com/rockphotog/hida/issues/2)
 - [ ] [Dekningsområde i Schema.org](https://github.com/rockphotog/hida/issues/3)
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
-- [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel
-- [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? Skal leses av maskiner, ikke folk. Fordel: Lesbarhet. Ulempe: Presedens ved feil  
+- [x] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel (avvist)
+- [ ] [Schema.org: about/name - nødvendig? #4](https://github.com/rockphotog/hida/issues/4)
 - [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og'  
 - [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
