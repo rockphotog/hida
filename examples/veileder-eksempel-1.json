@@ -1,5 +1,5 @@
 {
-    "@context": "https://schema.org",
+    "@context": "https:\/\/schema.org",
     "@type": "CreativeWork",
     "publisher": {
         "@type" : "Organization",
@@ -16,7 +16,7 @@
     "identifier" : "b84c398f-ebcd-46a7-929f-eaab7728008e ",
     "about" : {
         "name" : "Bålbrenning",
-        "additionalType" : "https://psi.norge.no/los/ord/balbrenning"
+        "additionalType" : "https:\/\/psi.norge.no\/los\/ord\/balbrenning"
     },
     "headline" : "Regler for bålbrenning ved Økern Portal",
     "datePublished" : "2023-12-05"
