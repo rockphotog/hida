@@ -13,7 +13,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 ### Felles diskusjon
 
 - [ ] [Kun mulig med én "about" - løsning?](https://github.com/rockphotog/hida/issues/2)
-- [ ] Forslag/diskusjon: dekningsområde -> Thing/Intangible/Service/areaServed(/eligibleRegion), mulig kobles på under "about" - bedre støtte under f.eks "Product", "Service"
+- [ ] [Dekningsområde i Schema.org](https://github.com/rockphotog/hida/issues/3)
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
 - [ ] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel
 - [ ] "Name"(text) mulig for "tema/about" - "kjekt å ha" eller "smør på flesk"? Skal leses av maskiner, ikke folk. Fordel: Lesbarhet. Ulempe: Presedens ved feil  
