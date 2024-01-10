@@ -2,7 +2,7 @@
 
 NB! **UNDER UTVIKLING - PÅGÅENDE ARBEID**
 
-HIDA-teamet, Digitaliseringsdirektoratet, [xx.12.2023]
+HIDA-teamet, Digitaliseringsdirektoratet, januar 2024
 
 Denne siden forvaltes på GitHub: [https://github.com/rockphotog/hida](https://github.com/rockphotog/hida)
 
@@ -229,7 +229,7 @@ En *konsument* må ha programvare som kan lese og behandle informasjon, inkluder
 
 ### html/meta, RDFa og JSON-LD
 
-Eksempel med kombinasjon meta-tags, JSON-LD og RDFa fra en ordinær SEO-plugin. 
+Eksempel med kombinasjon meta-tags, JSON-LD og RDFa fra en ordinær SEO-plugin.  
 
 [Eksempel - Tatt fra undertegnedes hjemmeside](examples/seland.org.html)
 
@@ -242,10 +242,15 @@ Namespacet *og* betyr [Open Graph](https://ogp.me/).
 
 ## Appendix B - Verktøy
 
+### Diagram
+
 - [PlantUML](https://plantuml.com/)
-- [PlantText Editor](https://www.planttext.com/)
-- [Archi](https://www.archimatetool.com/) - archimate modelling
-- [Validator for Schema.org](https://validator.schema.org/)
+- [PlantText Editor](https://www.planttext.com/) - Online redigeringsverktøy for PlantUML
+- [Archi](https://www.archimatetool.com/) - Åpent verktøy for ArchiMate-modellering
+
+### JSON-LD
+
+- [Validator for Schema.org](https://validator.schema.org/) - testing av JSON-LD mot Schema.org-krav
 
 [^1]: Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
 
