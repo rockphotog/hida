@@ -15,7 +15,6 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] [Kun mulig med én "about" - løsning?](https://github.com/rockphotog/hida/issues/2)
 - [ ] [Dekningsområde i Schema.org](https://github.com/rockphotog/hida/issues/3)
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
-- [x] Kan "Produsent" hete "Forfatter"? Mener kanskje likevel "Produsent" er videre, men en fordel (avvist)
 - [ ] [Schema.org: about/name - nødvendig? #4](https://github.com/rockphotog/hida/issues/4)
 - [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og'  
 - [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
@@ -28,7 +27,6 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 
 - [ ] Husk språkkoder - endelig forslag til bruk  
 - [ ] Følge opp mapping EY/Los-mapping: [https://github.com/Informasjonsforvaltning/behov/issues/444](https://github.com/Informasjonsforvaltning/behov/issues/444)
-- [x] Finne og referere til minimumskravene JY nevnte
 - [ ] Gjøre om fotnoter til direkte lenker der det er naturlig
 - [ ] Microdata - sjekk opp bruk
 - [ ] Skrive videre på "Oppfølging", inkl forvaltning/forking av repo, etc.
@@ -36,7 +34,6 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] Eksempel RDFa? Inline/blokker?
 - [ ] Rydde i eller fjerne Archi-filen
 - [ ] Vurdere å henvise til praksis fra f.eks. Google/Microsoft
-- [x] Note to self: https://informasjonsforvaltning.github.io/cdvno/ (Takk, Lilia!)
 
 ---
 
