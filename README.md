@@ -153,22 +153,22 @@ Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes m
 
 Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I prinsippet bør man forvalte og vedlikeholde en guide for mapping mot de til enhver mest aktuelle formatene. 
 
-#### Kobling til DACT-AP-NO, schema.org, med mer.
+#### Kobling til DCAT-AP-NO, schema.org, med mer.
 
-Attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
+Schema.org-attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
 
-| **Metadata-felt** | **DCAT-AP-NO** | **Schema.org** | **Datatype** |
-| --- | --- | --- | --- |
-| **Utgiver** | dct:publisher | publisher | Organization (legalName, identifier) |
-| **Produsent** | dct:creator | author | Organization (legalName, identifier) |
-| **Beskrivelse** | dct:description | description | Text |
-| **Hovedspråk** | dct:language | inLanguage | Text [eller Language] |
-| **Identifikator** | dct:identifier | identifier | Text |
-| **Tema** | dcat:theme | about | Thing (name, additionalType) **NB!** |
-| **Tittel** | dct:title | headline | Text |
-| **Dato opprettet** | dct:issued | datePublished | Date / DateTime |
-| **Dato sist oppdatert** | dct:modified | dateModified | Date / DateTime |
-| **Basert på** | | isBasedOn | URL |
+| **Metadata-felt** | **DCAT-AP-NO** | *Datatype* | **Schema.org** | *Datatype* |
+| --- | --- | --- | --- | -- |
+| **Utgiver** | dct:publisher | org:Organization | publisher | Organization (legalName, identifier) |
+| **Produsent** | dct:creator | | author | Organization (legalName, identifier) |
+| **Beskrivelse** | dct:description | | description | Text |
+| **Hovedspråk** | dct:language | | inLanguage | Text [eller Language] |
+| **Identifikator** | dct:identifier | | identifier | Text |
+| **Tema** | dcat:theme | | about | Thing (name, additionalType) **NB!** |
+| **Tittel** | dct:title | | headline | Text |
+| **Dato opprettet** | dct:issued | xsd:date | datePublished | Date / DateTime |
+| **Dato sist oppdatert** | dct:modified | | dateModified | Date / DateTime |
+| **Basert på** | | | isBasedOn | URL |
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
