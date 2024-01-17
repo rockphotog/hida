@@ -147,26 +147,28 @@ Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.
 
 ### Syntaks/format
 
+- [ ] TODO DCAT
+
 Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes med CMS. Det finnes ingen dominerende standard. Mye brukte formater er JSON Linked Data (JSON-LD), RDFa og [Micodata]. Felles for disse er at de benytter vokabular beskrevet på Schema.org, et dugnadsdrevet arbeid med mål om å lage og forvalte [skjemaer] for strukturerte data på internett.
 
 Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I prinsippet bør man forvalte og vedlikeholde en guide for mapping mot de til enhver mest aktuelle formatene. 
 
-#### Kobling til schema.org
+#### Kobling til DACT-AP-NO, schema.org, med mer.
 
 Attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
 
-| **Metadata-felt** | **Schema.org** | **Datatype** |
-| --- | --- | --- |
-| **Utgiver** | publisher | Organization (legalName, identifier) |
-| **Produsent** | author | Organization (legalName, identifier) |
-| **Beskrivelse** | description | Text |
-| **Hovedspråk** | inLanguage | Text [eller Language] |
-| **Identifikator** | identifier | Text |
-| **Tema** | about | Thing (name, additionalType) **NB!** |
-| **Tittel** | headline | Text |
-| **Dato opprettet** | datePublished | Date / DateTime |
-| **Dato sist oppdatert** | dateModified | Date / DateTime |
-| **Basert på** | isBasedOn | URL |
+| **Metadata-felt** | **DCAT-AP-NO** | **Schema.org** | **Datatype** |
+| --- | --- | --- | --- |
+| **Utgiver** | dct:publisher | publisher | Organization (legalName, identifier) |
+| **Produsent** | dct:creator | author | Organization (legalName, identifier) |
+| **Beskrivelse** | dct:description | description | Text |
+| **Hovedspråk** | dct:language | inLanguage | Text [eller Language] |
+| **Identifikator** | dct:identifier | identifier | Text |
+| **Tema** | dcat:theme | about | Thing (name, additionalType) **NB!** |
+| **Tittel** | dct:title | headline | Text |
+| **Dato opprettet** | dct:issued | datePublished | Date / DateTime |
+| **Dato sist oppdatert** | dct:modified | dateModified | Date / DateTime |
+| **Basert på** | | isBasedOn | URL |
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
