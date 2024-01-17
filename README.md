@@ -119,7 +119,7 @@ Dette er et subsett baseret på [TODO referanse til HIDA-arbeid våren 2023]. Mi
 | **Produsent** | enhet | Frivillig, flere er mulig | Organisasjonen som forfatter teksten |
 | **Beskrivelse** | tekst | Frivillig | Kort beskrivelse av tekstens innhold og kontekst |
 | **Hovedspråk** | kodet | Obligatorisk | Språket størstedelen av teksten er på, se *Kodeverk/terminologi* |
-| **Identifikator** | tekst | Obligatorisk | Unik identifikator basert på UUID[^6] |
+| **Identifikator** | tekst | Obligatorisk | Unik identifikator i form av URI |
 | **Tema** | kodet | Obligatorisk, flere er mulig | Tekstens hovedtema basert på Los, se *Kodeverk/terminologi*. |
 | **Tittel** | tekst | Obligatorisk | Artikkelens tittel |
 | **Dato opprettet** | dato | Frivillig | Dato for publisering |
@@ -226,7 +226,7 @@ En *konsument* må ha programvare som kan lese og behandle informasjon, inkluder
     },
     "description" : "Et eksempel på en beskrivelse av innholdet",
     "inLanguage" : "nb",
-    "identifier" : "b84c398f-ebcd-46a7-929f-eaab7728008e",
+    "identifier" : "https://www.digdir.no/eksempel/artikkel/123456789",
     "about" : {
         "name" : "Bålbrenning",
         "additionalType" : "https://psi.norge.no/los/ord/balbrenning"
