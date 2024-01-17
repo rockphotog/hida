@@ -176,11 +176,12 @@ Schema.org-attributtene er hovedsaklig hentet fra [CreativeWork](https://schema.
 
 ##### Namespace [ #TODO ]
 
-| **Namespace** | Dokumentasjon |
-| --- | --- |
-| dct | Dublin Core |
-| org | |
-| skos | [SKOS Simple Knowledge Organization System Reference](https://www.w3.org/TR/skos-reference/) |
+| **Prefiks** | **Namespace** | Dokumentasjon |
+| --- | --- | --- |
+| dcat | http://www.w3.org/ns/dcat# | [Data Catalog Vocabulary (DCAT) - Version 2](https://www.w3.org/TR/vocab-dcat-2/) |
+| dct | [http://purl.org/dc/terms/](http://purl.org/dc/terms/) | DCMI Metadata Terms |
+| org | http://www.w3.org/ns/org# | [The Organization Ontology](https://www.w3.org/TR/vocab-org/) |
+| skos | [http://www.w3.org/2004/02/skos/core#](https://www.w3.org/2009/08/skos-reference/skos.html) |[SKOS Simple Knowledge Organization System Reference](https://www.w3.org/TR/skos-reference/) |
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
