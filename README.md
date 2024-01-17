@@ -12,7 +12,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 
 ### Felles diskusjon
 
-- [ ] **2024-01-17** Foreslå å fjerne "Basert på" med tanke på MVP, men snakke med ETI først med tanke på AI. 
+- [ ] **2024-01-17** Foreslå å fjerne "Basert på" med tanke på MVP, men snakke med ETI først med tanke på AI.
 - [ ] [Kun mulig med én "about" - løsning?](https://github.com/rockphotog/hida/issues/2)
 - [ ] [Dekningsområde i Schema.org](https://github.com/rockphotog/hida/issues/3)
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
@@ -22,11 +22,12 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
 - [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
 - [ ] [Finne eller lage regel for hva som kvalifiserer for å være "(sist) oppdatert"](https://github.com/rockphotog/hida/issues/1)
-- [ ] Vurdere å slå dette dokumentet sammen med [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/) 
+- [ ] Vurdere å slå dette dokumentet sammen med [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/)
 
 ### Annet + oppgaver
 
 - [ ] **2024-01-17** Guide for DCAT/CDV-NO-namespace (se også punkter nedenfor)
+- [ ] **2024-01-17** Lage eksempel DCAT/CDV
 - [ ] **2024-01-17** Tone ned Schema.org (kan testes, men vil ikke være offisiell anbefaling)
 - [ ] Husk språkkoder - endelig forslag til bruk  
 - [ ] Følge opp mapping EY/Los-mapping: [https://github.com/Informasjonsforvaltning/behov/issues/444](https://github.com/Informasjonsforvaltning/behov/issues/444)
@@ -47,6 +48,8 @@ Formål med dette arbeidet er at det kan utvikles til en veileder som normeres a
 Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (*MVP*[^1] ) og utprøves ved hjelp av smidig metode.  
 
 Metadatasettet skal testes ut i livshendelsen [Alvorlig sykt barn](https://alvorligsyktbarn.no/) i prosjektet [Enklere tilgang til informasjon](https://alvorligsyktbarn.no/enklere-tilgang-til-informasjon) (ETI) i 2024.  
+
+**NB!: Ikke normerende.**
 
 ## Behov
 
@@ -103,11 +106,11 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 <img width="50%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
 
-***Figur 3** Semantisk innhold i henhold til EIRA 6.0.0 (KLADD)*
+***Figur 3** Semantisk innhold i henhold til EIRA 6.0.0 (konseptuelt utkast)*
 
 ### Informasjonsmodell
 
-Dette er et subsett baseret på [TODO referanse til HIDA-arbeid våren 2023]. Minimumskrav er hentet fra [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/). Disse to dokumentene er overlappende og kan vurderes slått sammen.  
+Dette er et subsett baseret på funn i HIDA og ETI våren 2023. Minimumskrav er hentet fra [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/). Disse to dokumentene er overlappende og kan vurderes slått sammen.  
 
 <img width="50%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
@@ -156,7 +159,7 @@ Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I
 
 #### Kobling til DCAT-AP-NO, schema.org, med mer.
 
-Schema.org-attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
+Schema.org-attributtene er hovedsaklig hentet fra [CreativeWork](https://schema.org/CreativeWork).
 
 | **Metadata-felt** | **DCAT-AP-NO** | *datatype* | **Schema.org** | *datatype* |
 | --- | --- | --- | --- | -- |
@@ -173,9 +176,11 @@ Schema.org-attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
 
 ##### Namespace [ #TODO ]
 
-dct
-org
-skos
+| **Namespace** | Dokumentasjon |
+| --- | --- |
+| dct | Dublin Core |
+| org | |
+| skos | [SKOS Simple Knowledge Organization System Reference](https://www.w3.org/TR/skos-reference/) |
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
@@ -277,5 +282,3 @@ Namespacet *og* betyr [Open Graph](https://ogp.me/).
 [^7]: [Los - felles vokabular for klassifisering av offentlige tjenester og ressurser - Digdir](https://www.digdir.no/informasjonsforvaltning/los-felles-vokabular-klassifisering-av-offentlige-tjenester-og-ressurser/2434)
 
 [^8]: [Information on BCP 47 » RFC Editor (rfc-editor.org)](https://www.rfc-editor.org/info/bcp47)
-
-[^9]: [CreativeWork - Schema.org Type](https://schema.org/CreativeWork)
