@@ -23,8 +23,10 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] [Finne eller lage regel for hva som kvalifiserer for å være "(sist) oppdatert"](https://github.com/rockphotog/hida/issues/1)
 - [ ] Vurdere å slå dette dokumentet sammen med [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/) 
 
-### Annet
+### Annet + oppgaver
 
+- [ ] **2024-01-17** Guide for DCAT/CDV-NO-namespace (se også punkter nedenfor)
+- [ ] **2024-01-17** Tone ned Schema.org (kan testes, men vil ikke være offisiell anbefaling)
 - [ ] Husk språkkoder - endelig forslag til bruk  
 - [ ] Følge opp mapping EY/Los-mapping: [https://github.com/Informasjonsforvaltning/behov/issues/444](https://github.com/Informasjonsforvaltning/behov/issues/444)
 - [ ] Gjøre om fotnoter til direkte lenker der det er naturlig
