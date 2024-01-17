@@ -16,7 +16,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 - [ ] [Dekningsområde i Schema.org](https://github.com/rockphotog/hida/issues/3)
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
 - [ ] [Schema.org: about/name - nødvendig? #4](https://github.com/rockphotog/hida/issues/4)
-- [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og'  
+- [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og'. DCAT foreslår kun *date* for f.eks. *modified*  
 - [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
 - [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
 - [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
@@ -157,18 +157,24 @@ Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I
 
 Schema.org-attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
 
-| **Metadata-felt** | **DCAT-AP-NO** | *Datatype* | **Schema.org** | *Datatype* |
+| **Metadata-felt** | **DCAT-AP-NO** | *datatype* | **Schema.org** | *datatype* |
 | --- | --- | --- | --- | -- |
 | **Utgiver** | dct:publisher | org:Organization | publisher | Organization (legalName, identifier) |
-| **Produsent** | dct:creator | | author | Organization (legalName, identifier) |
-| **Beskrivelse** | dct:description | | description | Text |
-| **Hovedspråk** | dct:language | | inLanguage | Text [eller Language] |
-| **Identifikator** | dct:identifier | | identifier | Text |
-| **Tema** | dcat:theme | | about | Thing (name, additionalType) **NB!** |
-| **Tittel** | dct:title | | headline | Text |
+| **Produsent** | dct:creator | org:Organization | author | Organization (legalName, identifier) |
+| **Beskrivelse** | dct:description | rdf:langString | description | Text |
+| **Hovedspråk** | dct:language | dct:LinguisticSystem | inLanguage | Text [eller Language] |
+| **Identifikator** | dct:identifier | xsd:anyURI | identifier | Text |
+| **Tema** | dcat:theme | skos:Concept | about | Thing (name, additionalType) **NB!** |
+| **Tittel** | dct:title | rdf:langString | headline | Text |
 | **Dato opprettet** | dct:issued | xsd:date | datePublished | Date / DateTime |
-| **Dato sist oppdatert** | dct:modified | | dateModified | Date / DateTime |
-| **Basert på** | | | isBasedOn | URL |
+| **Dato sist oppdatert** | dct:modified | xsd:date | dateModified | Date / DateTime |
+| **Basert på** | | xsd:anyURI **?** | isBasedOn | URL |
+
+##### Namespace [ #TODO ]
+
+dct
+org
+skos
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
