@@ -147,6 +147,8 @@ Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.
 
 Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes med CMS. Det finnes ingen dominerende standard. Mye brukte formater er JSON Linked Data (JSON-LD), RDFa og [Micodata]. Felles for disse er at de benytter vokabular beskrevet på Schema.org, et dugnadsdrevet arbeid med mål om å lage og forvalte [skjemaer] for strukturerte data på internett.
 
+Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I prinsippet bør man forvalte og vedlikeholde en guide for mapping mot de til enhver mest aktuelle formatene. 
+
 #### Kobling til schema.org
 
 Attributtene er hovedsaklig hentet fra *CreativeWork*[^9].
