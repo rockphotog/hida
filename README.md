@@ -12,6 +12,7 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 
 ### Felles diskusjon
 
+- [ ] **2024-01-17** Foreslå å fjerne "Basert på" med tanke på MVP, men snakke med ETI først med tanke på AI. 
 - [ ] [Kun mulig med én "about" - løsning?](https://github.com/rockphotog/hida/issues/2)
 - [ ] [Dekningsområde i Schema.org](https://github.com/rockphotog/hida/issues/3)
 - [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
