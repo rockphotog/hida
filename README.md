@@ -182,6 +182,8 @@ Schema.org-attributtene er hovedsaklig hentet fra [CreativeWork](https://schema.
 | dct | [http://purl.org/dc/terms/](http://purl.org/dc/terms/) | DCMI Metadata Terms |
 | org | http://www.w3.org/ns/org# | [The Organization Ontology](https://www.w3.org/TR/vocab-org/) |
 | skos | [http://www.w3.org/2004/02/skos/core#](https://www.w3.org/2009/08/skos-reference/skos.html) |[SKOS Simple Knowledge Organization System Reference](https://www.w3.org/TR/skos-reference/) |
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns# | #TODO |
+| xsd | http://www.w3.org/2001/XMLSchema# | #TODO |
 
 Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
