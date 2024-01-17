@@ -43,11 +43,11 @@ Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille in
 
 ## Mål
 
-Formål med dette arbeidet er at det kan utvikles til en veileder som normeres av Digitaliseringsdirektoratet.  
+Innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (*MVP*[^1] ) og utprøves ved hjelp av smidig metode.  
 
-Målet er at innholdet beskriver et minimumssett av metadata som kan implementeres som et enkleste brukbare produkt (*MVP*[^1] ) og utprøves ved hjelp av smidig metode.  
+*Mål på kort sikt:* Metadatasettet skal testes ut i livshendelsen [Alvorlig sykt barn](https://alvorligsyktbarn.no/) i prosjektet [Enklere tilgang til informasjon](https://alvorligsyktbarn.no/enklere-tilgang-til-informasjon) (ETI) i 2024.  
 
-Metadatasettet skal testes ut i livshendelsen [Alvorlig sykt barn](https://alvorligsyktbarn.no/) i prosjektet [Enklere tilgang til informasjon](https://alvorligsyktbarn.no/enklere-tilgang-til-informasjon) (ETI) i 2024.  
+*Mål på lengre sikt:* Dette **ikke-normerende** dokumentet har som formål å utvikles til en veileder, eller vedlegg til en veileder, som normeres av Digitaliseringsdirektoratet.  
 
 **NB!: Ikke normerende.**
 
