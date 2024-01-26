@@ -54,7 +54,7 @@ Det er ingen juridiske føringer for anvendelsen. Det kan vurderes å gjøre nor
 
 <img width="60%" src="diagrams/usecase-a.png" alt="UML use case diagram" />
 
-***Figur 1** UML Use Case-diagram for organisatorisk samhandlingsevne*
+***Figur 1** Use case-diagram for organisatorisk samhandlingsevne (UML)*
 
 En *produsent* sørger for å publisere informasjon på internett. Produsenten kan også oppdatere eller trekke tilbake informasjonen. Informasjonen som publiseres må beskrives (metadata).
 
@@ -65,7 +65,7 @@ En *konsument* vil kunne lese informasjonen publisert av produsenten, inkludert 
 
 <img width="60%" src="diagrams/organizational.png" alt="archimate business diagram" />
 
-***Figur 2** Archimate-diagram for organisatorisk samhandlingsevne*
+***Figur 2** Organisatorisk samhandlingsevne (ArchiMate)*
 
 ## Semantisk samhandlingsevne
 
@@ -73,7 +73,7 @@ Under følger beskrivelse av felles informasjonsmodell, kodeverk/terminologi og 
 
 <img width="50%" src="diagrams/semantic-eira.png" alt="UML klassediagram for metadata" />
 
-***Figur 3** Semantisk innhold i henhold til EIRA 6.0.0 (konseptuelt utkast)*
+***Figur 3** Semantisk innhold i henhold til EIRA 6.0.0 (konseptuelt utkast, ArchiMate)*
 
 ### Informasjonsmodell
 
@@ -81,7 +81,7 @@ Dette er et subsett baseret på funn i HIDA og ETI våren 2023. Minimumskrav er 
 
 <img width="50%" src="diagrams/klassediagram.png" alt="UML klassediagram for metadata" />
 
-***Figur 4** UML klassediagram for metadata*
+***Figur 4** Klassediagram for metadata (UML)*
 
 | **Metadata-felt** | **Type** | **Krav** | **Beskrivelse** |
 | --- | --- | --- | --- |
@@ -162,7 +162,7 @@ Eksempel på bruk finnes i Appendiks 1 – Eksempel på JSON-LD.
 
 ![ArchiMate-diagram](diagrams/technical.png)
 
-***Figur 5** Teknisk samhandlingsevne beskrevet med ArchiMate*
+***Figur 5** Teknisk samhandlingsevne (ArchiMate)*
 
 En *produsent* må ha et publiseringssystem som støtter ett eller flere format. Denne veilederen presiserer støtte for JSON-LD bygd opp med vokabular fra Schema.org på artikkelnivå (web-side) som minimumskrav. Ytterligere formater f.eks. RDFa på artikkel- og blokknivå kan prøves ut.
 
@@ -226,11 +226,11 @@ RDFa er i prinsippet "property"-attributtene som utvider "meta.
 
 Namespacet *og* betyr [Open Graph](https://ogp.me/).
 
-## Appendix B - Verktøy
+## Appendix B - Notasjon og verktøy
 
-- [PlantUML](https://plantuml.com/)
+- [PlantUML](https://plantuml.com/) for [UML](https://www.omg.org/spec/UML/2.5.1/About-UML/)
 - [PlantText Editor](https://www.planttext.com/) - Online redigeringsverktøy for PlantUML
-- [Archi](https://www.archimatetool.com/) - Åpent verktøy for ArchiMate-modellering
+- [Archi](https://www.archimatetool.com/) - Åpent verktøy for [ArchiMate](https://www.opengroup.org/archimate-forum/archimate-overview)
 - [Validator for Schema.org](https://validator.schema.org/) - testing av JSON-LD mot Schema.org-krav
 
 ---
