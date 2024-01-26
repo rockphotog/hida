@@ -6,38 +6,7 @@ HIDA-teamet, Digitaliseringsdirektoratet, januar 2024
 
 Denne siden forvaltes på GitHub: [https://github.com/rockphotog/hida](https://github.com/rockphotog/hida)
 
-## Gjøremålsliste (midlertidig)  
-
-Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille inn forslag/endringer/feil.  
-
-### Felles diskusjon
-
-- [ ] **2024-01-17** Foreslå å fjerne "Basert på" med tanke på MVP, men snakke med ETI først med tanke på AI.
-- [ ] [Kun mulig med én "about" - løsning?](https://github.com/rockphotog/hida/issues/2)
-- [ ] [Dekningsområde i Schema.org](https://github.com/rockphotog/hida/issues/3)
-- [ ] Skal de kunne kodes med f.eks. flere koder på nivå 2 (undertema) og 3 (emneord)?
-- [ ] [Schema.org: about/name - nødvendig? #4](https://github.com/rockphotog/hida/issues/4)
-- [ ] date og/eller dateTime på hhv datePublished/dateModifies. Tror det er frivillig, foreslås 'både og'. DCAT foreslår kun *date* for f.eks. *modified*  
-- [ ] isBasedOn (Espens forslag) - begrense til URL? Hvis ikke må strukturen utvides (CreativeWork / Product)
-- [ ] Skrive noe om avgrensning på artikkel-nivå (vs blokker) grunnet MVP...?
-- [ ] Krav-tabell: Bruke kardinaliteter (1..*, 1..1 etc) i stedet for tekst?
-- [ ] [Finne eller lage regel for hva som kvalifiserer for å være "(sist) oppdatert"](https://github.com/rockphotog/hida/issues/1)
-- [ ] Vurdere å slå dette dokumentet sammen med [CDV-NO - Spesifikasjon for innholdsbeskrivelser](https://informasjonsforvaltning.github.io/cdvno/)
-
-### Annet + oppgaver
-
-- [ ] **2024-01-17** Guide for DCAT/CDV-NO-namespace (se også punkter nedenfor)
-- [ ] **2024-01-17** Lage eksempel DCAT/CDV
-- [ ] **2024-01-17** Tone ned Schema.org (kan testes, men vil ikke være offisiell anbefaling)
-- [ ] Husk språkkoder - endelig forslag til bruk  
-- [ ] Følge opp mapping EY/Los-mapping: [https://github.com/Informasjonsforvaltning/behov/issues/444](https://github.com/Informasjonsforvaltning/behov/issues/444)
-- [ ] Gjøre om fotnoter til direkte lenker der det er naturlig
-- [ ] Microdata - sjekk opp bruk
-- [ ] Skrive videre på "Oppfølging", inkl forvaltning/forking av repo, etc.
-- [ ] Ett eksempel til med JSON-LD med flere nivåer
-- [ ] Eksempel RDFa? Inline/blokker?
-- [ ] Rydde i eller fjerne Archi-filen
-- [ ] Vurdere å henvise til praksis fra f.eks. Google/Microsoft
+Se også åpen [gjøremålsliste](todo.md) og [issues](https://github.com/rockphotog/hida/issues).
 
 ---
 
@@ -135,7 +104,7 @@ Dette er et subsett baseret på funn i HIDA og ETI våren 2023. Minimumskrav er 
 
 Los benyttes for kor koding av attributtet *tema*.
 
-Los er et felles vokabular som er temainndelt for å kategorisere og beskrive offentlige tjenester og ressurser[^7]. Los brukes her primært for å kategorisere og beskrive offentlige sluttbrukertjenester og ressurser, samt å optimalisere søk på nettsider.
+Los er et felles vokabular som er temainndelt for å kategorisere og beskrive offentlige tjenester og ressurser[^6]. Los brukes her primært for å kategorisere og beskrive offentlige sluttbrukertjenester og ressurser, samt å optimalisere søk på nettsider.
 
 Det kan oppgis tre koder: [NB, se Gjøremålsliste]
 
@@ -147,7 +116,7 @@ Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.
 
 #### Hovedspråk
 
-- [ ] TODO -\> nb|nn|en etc. som streng, ikke BCP-47[^8].
+- [ ] TODO -\> nb|nn|en etc. som streng, ikke BCP-47[^7].
 
 ### Syntaks/format
 
@@ -155,9 +124,9 @@ Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.
 
 Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes med CMS. Det finnes ingen dominerende standard. Mye brukte formater er JSON Linked Data (JSON-LD), RDFa og [Micodata]. Felles for disse er at de benytter vokabular beskrevet på Schema.org, et dugnadsdrevet arbeid med mål om å lage og forvalte [skjemaer] for strukturerte data på internett.
 
-Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I prinsippet bør man forvalte og vedlikeholde en guide for mapping mot de til enhver mest aktuelle formatene. 
+Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I prinsippet bør man forvalte og vedlikeholde en guide for mapping mot de til enhver mest aktuelle formatene.
 
-#### Kobling til DCAT-AP-NO, schema.org, med mer.
+#### Kobling til DCAT-AP-NO, schema.org, med mer
 
 Schema.org-attributtene er hovedsaklig hentet fra [CreativeWork](https://schema.org/CreativeWork).
 
@@ -256,6 +225,7 @@ RDFa er i prinsippet "property"-attributtene som utvider "meta.
 ```html
 <meta property="og:title" content="Regler for bålbrenning ved Økern Portal" />
 ```
+
 Namespacet *og* betyr [Open Graph](https://ogp.me/).
 
 ## Appendix B - Verktøy
@@ -267,7 +237,6 @@ Namespacet *og* betyr [Open Graph](https://ogp.me/).
 
 ---
 
-
 [^1]: Minimum viable product, et så enkelt produkt som mulig, men som faktisk gir verdi for brukerne og nyttig tilbakemelding til videreutvikling
 
 [^2]: Engelsk: Content management system (CMS)
@@ -278,8 +247,6 @@ Namespacet *og* betyr [Open Graph](https://ogp.me/).
 
 [^5]: [Referansekatalogen for IT-standardar - Digdir](https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480)
 
-[^6]: [RFC 4122 - A Universally Unique IDentifier (UUID) URN Namespace (ietf.org)](https://datatracker.ietf.org/doc/html/rfc4122)
+[^6]: [Los - felles vokabular for klassifisering av offentlige tjenester og ressurser - Digdir](https://www.digdir.no/informasjonsforvaltning/los-felles-vokabular-klassifisering-av-offentlige-tjenester-og-ressurser/2434)
 
-[^7]: [Los - felles vokabular for klassifisering av offentlige tjenester og ressurser - Digdir](https://www.digdir.no/informasjonsforvaltning/los-felles-vokabular-klassifisering-av-offentlige-tjenester-og-ressurser/2434)
-
-[^8]: [Information on BCP 47 » RFC Editor (rfc-editor.org)](https://www.rfc-editor.org/info/bcp47)
+[^7]: [Information on BCP 47 » RFC Editor (rfc-editor.org)](https://www.rfc-editor.org/info/bcp47)
