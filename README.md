@@ -118,7 +118,7 @@ Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.
 | --- | --- | --- |
 | nb | nob | norsk (bokmål) |
 | nn | nno | norsk (nynorsk) |
-| no | | norsk |
+| no | nor | norsk |
 | | smi | samisk |
 | se | sme | nordsamisk |
 | | smj | lulesamisk |
