@@ -1,4 +1,4 @@
-## Gjøremålsliste (midlertidig)  
+# Gjøremålsliste (midlertidig)
 
 Bruk gjerne [issues](https://github.com/rockphotog/hida/issues) for å spille inn forslag/endringer/feil.  
 

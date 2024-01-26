@@ -18,8 +18,6 @@ Innholdet beskriver et minimumssett av metadata som kan implementeres som et enk
 
 *Mål på lengre sikt:* Dette **ikke-normerende** dokumentet har som formål å utvikles til en veileder, eller vedlegg til en veileder, som normeres av Digitaliseringsdirektoratet.  
 
-**NB!: Ikke normerende.**
-
 ## Behov
 
 ### Bakgrunn
