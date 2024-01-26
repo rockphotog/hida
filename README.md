@@ -141,7 +141,7 @@ Schema.org-attributtene er hovedsaklig hentet fra [CreativeWork](https://schema.
 | **Dato sist oppdatert** | dct:modified | xsd:date | dateModified | Date / DateTime |
 | **Basert på** | | xsd:anyURI **?** | isBasedOn | URL |
 
-##### Namespace [ #TODO ]
+#### Namespace
 
 | **Prefiks** | **Namespace** | Dokumentasjon |
 | --- | --- | --- |
