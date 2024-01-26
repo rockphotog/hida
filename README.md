@@ -114,11 +114,20 @@ Se dokumentasjon for Los på data.norge.no: [Los (norge.no)](https://data.norge.
 
 #### Hovedspråk
 
-- [ ] TODO -\> nb|nn|en etc. som streng, ikke BCP-47[^7].
+| ISO 639-1 | ISO 639-3 | Språk |
+| --- | --- | --- |
+| nb | nob | norsk (bokmål) |
+| nn | nno | norsk (nynorsk) |
+| no | | norsk |
+| | smi | samisk |
+| se | sme | nordsamisk |
+| | smj | lulesamisk |
+| | sma | sørsamisk |
+| | fkv | kvensk |
+
+Listen er ikke uttømmende.  
 
 ### Syntaks/format
-
-- [ ] TODO DCAT
 
 Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes med CMS. Det finnes ingen dominerende standard. Mye brukte formater er JSON Linked Data (JSON-LD), RDFa og [Micodata]. Felles for disse er at de benytter vokabular beskrevet på Schema.org, et dugnadsdrevet arbeid med mål om å lage og forvalte [skjemaer] for strukturerte data på internett.
 
