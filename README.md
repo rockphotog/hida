@@ -83,17 +83,17 @@ Dette er et subsett baseret på funn i HIDA og ETI våren 2023. Minimumskrav er 
 
 ***Figur 4** Klassediagram for metadata (UML)*
 
-| **Metadata-felt** | **Type** | **Krav** | **Beskrivelse** |
-| --- | --- | --- | --- |
-| **Utgiver** | enhet | Obligatorisk | Organisasjonen som publiserer teksten på eget nettsted |
-| **Produsent** | enhet | Frivillig, flere er mulig | Organisasjonen som forfatter teksten |
-| **Beskrivelse** | tekst | Frivillig | Kort beskrivelse av tekstens innhold og kontekst |
-| **Hovedspråk** | kodet | Obligatorisk | Språket størstedelen av teksten er på, se *Kodeverk/terminologi* |
-| **Identifikator** | tekst | Obligatorisk | Unik identifikator i form av URI |
-| **Tema** | kodet | Obligatorisk, flere er mulig | Tekstens hovedtema basert på Los, se *Kodeverk/terminologi*. |
-| **Tittel** | tekst | Obligatorisk | Artikkelens tittel |
-| **Dato opprettet** | dato | Frivillig | Dato for publisering |
-| **Dato sist oppdatert** | dato | Frivillig | Dato for oppdatering |
+| **Metadata-felt**       | **Type** | **Krav**                     | **Beskrivelse**                                                  |
+|-------------------------|----------|------------------------------|------------------------------------------------------------------|
+| **Utgiver**             | enhet    | Obligatorisk                 | Organisasjonen som publiserer teksten på eget nettsted           |
+| **Produsent**           | enhet    | Frivillig, flere er mulig    | Organisasjonen som forfatter teksten                             |
+| **Beskrivelse**         | tekst    | Frivillig                    | Kort beskrivelse av tekstens innhold og kontekst                 |
+| **Hovedspråk**          | kodet    | Obligatorisk                 | Språket størstedelen av teksten er på, se *Kodeverk/terminologi* |
+| **Identifikator**       | tekst    | Obligatorisk                 | Unik identifikator i form av URI                                 |
+| **Tema**                | kodet    | Obligatorisk, flere er mulig | Tekstens hovedtema basert på Los, se *Kodeverk/terminologi*.     |
+| **Tittel**              | tekst    | Obligatorisk                 | Artikkelens tittel                                               |
+| **Dato opprettet**      | dato     | Frivillig                    | Dato for publisering                                             |
+| **Dato sist oppdatert** | dato     | Frivillig                    | Dato for oppdatering                                             |
 
 ### Kodeverk/terminologi
 
@@ -136,17 +136,17 @@ Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I
 
 #### Kobling mellom informasjonsmodell og CDV-NO og Schema.org
 
-| **Metadata-felt** | **CDV-NO** | *datatype* | **Schema.org** | *datatype* |
-| --- | --- | --- | --- | -- |
-| **Utgiver** | dct:publisher | org:Organization | publisher | Organization (legalName, identifier) |
-| **Produsent** | dct:creator | org:Organization | author | Organization (legalName, identifier) |
-| **Beskrivelse** | dct:description | rdf:langString | description | Text |
-| **Hovedspråk** | dct:language | dct:LinguisticSystem | inLanguage | Text [eller Language] |
-| **Identifikator** | dct:identifier | xsd:anyURI | identifier | Text |
-| **Tema** | dcat:theme | skos:Concept | about | Thing (name, additionalType) **NB!** |
-| **Tittel** | dct:title | rdf:langString | headline | Text |
-| **Dato opprettet** | dct:issued | xsd:date | datePublished | Date / DateTime |
-| **Dato sist oppdatert** | dct:modified | xsd:date | dateModified | Date / DateTime |
+| **Metadata-felt**       | **CDV-NO**      | *datatype*           | | **Schema.org** | *datatype*                           |
+|-------------------------|-----------------|----------------------|-|----------------|--------------------------------------|
+| **Utgiver**             | dct:publisher   | org:Organization     | | publisher      | Organization (legalName, identifier) |
+| **Produsent**           | dct:creator     | org:Organization     | | author         | Organization (legalName, identifier) |
+| **Beskrivelse**         | dct:description | rdf:langString       | | description    | Text                                 |
+| **Hovedspråk**          | dct:language    | dct:LinguisticSystem | | inLanguage     | Text [eller Language]                |
+| **Identifikator**       | dct:identifier  | xsd:anyURI           | | identifier     | Text                                 |
+| **Tema**                | dcat:theme      | skos:Concept         | | about          | Thing (name, additionalType) **NB!** |
+| **Tittel**              | dct:title       | rdf:langString       | | headline       | Text                                 |
+| **Dato opprettet**      | dct:issued      | xsd:date             | | datePublished  | Date / DateTime                      |
+| **Dato sist oppdatert** | dct:modified    | xsd:date             | | dateModified   | Date / DateTime                      |
 
 #### Namespace
 
