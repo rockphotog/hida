@@ -11,7 +11,6 @@ identifikator : tekst
 tema : kodet [1..*]
 "dato opprettet" : dato
 "dato sist oppdatert" : dato [0..1]
-"basert på" : url [0..*]
 }
 
 class enhet {

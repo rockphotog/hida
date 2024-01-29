@@ -94,7 +94,6 @@ Dette er et subsett baseret på funn i HIDA og ETI våren 2023. Minimumskrav er 
 | **Tittel** | tekst | Obligatorisk | Artikkelens tittel |
 | **Dato opprettet** | dato | Frivillig | Dato for publisering |
 | **Dato sist oppdatert** | dato | Frivillig | Dato for oppdatering |
-| **Basert på** | URL | Frivillig, flere er mulig | Peker til original(er) hvis dette er et derivat, for eksempel ved automatisk sammenstilling med kunstig intelligens. |
 
 ### Kodeverk/terminologi
 
@@ -129,15 +128,15 @@ Listen er ikke uttømmende.
 
 ### Syntaks/format
 
-Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes med CMS. Det finnes ingen dominerende standard. Mye brukte formater er JSON Linked Data (JSON-LD), RDFa og [Micodata]. Felles for disse er at de benytter vokabular beskrevet på Schema.org, et dugnadsdrevet arbeid med mål om å lage og forvalte [skjemaer] for strukturerte data på internett.
+Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes med CMS. Det finnes ingen dominerende standard. Mye brukte formater er JSON Linked Data (JSON-LD), RDFa og Microdata. 
+
+Under vises det bruk med felt og datatyper basert på henholdsbis [CDV-NO](https://informasjonsforvaltning.github.io/cdvno/) og [Schema.org](https://schema.org/).
 
 Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I prinsippet bør man forvalte og vedlikeholde en guide for mapping mot de til enhver mest aktuelle formatene.
 
-#### Kobling til DCAT-AP-NO, schema.org, med mer
+#### Kobling mellom informasjonsmodell og CDV-NO og Schema.org
 
-Schema.org-attributtene er hovedsaklig hentet fra [CreativeWork](https://schema.org/CreativeWork).
-
-| **Metadata-felt** | **DCAT-AP-NO** | *datatype* | **Schema.org** | *datatype* |
+| **Metadata-felt** | **CDV-NO** | *datatype* | **Schema.org** | *datatype* |
 | --- | --- | --- | --- | -- |
 | **Utgiver** | dct:publisher | org:Organization | publisher | Organization (legalName, identifier) |
 | **Produsent** | dct:creator | org:Organization | author | Organization (legalName, identifier) |
@@ -148,7 +147,6 @@ Schema.org-attributtene er hovedsaklig hentet fra [CreativeWork](https://schema.
 | **Tittel** | dct:title | rdf:langString | headline | Text |
 | **Dato opprettet** | dct:issued | xsd:date | datePublished | Date / DateTime |
 | **Dato sist oppdatert** | dct:modified | xsd:date | dateModified | Date / DateTime |
-| **Basert på** | | xsd:anyURI **?** | isBasedOn | URL |
 
 #### Namespace
 
@@ -255,5 +253,3 @@ Namespacet *og* betyr [Open Graph](https://ogp.me/).
 [^5]: [Referansekatalogen for IT-standardar - Digdir](https://www.digdir.no/standarder/referansekatalogen-it-standardar/1480)
 
 [^6]: [Los - felles vokabular for klassifisering av offentlige tjenester og ressurser - Digdir](https://www.digdir.no/informasjonsforvaltning/los-felles-vokabular-klassifisering-av-offentlige-tjenester-og-ressurser/2434)
-
-[^7]: [Information on BCP 47 » RFC Editor (rfc-editor.org)](https://www.rfc-editor.org/info/bcp47)
