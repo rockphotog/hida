@@ -130,13 +130,13 @@ Listen er ikke uttømmende.
 
 Det anbefales å uttrykke metadata på ett eller flere format som kan benyttes med CMS. Det finnes ingen dominerende standard. Mye brukte formater er JSON Linked Data (JSON-LD), RDFa og Microdata. 
 
-Under vises det bruk med felt og datatyper basert på henholdsbis [CDV-NO](https://informasjonsforvaltning.github.io/cdvno/) og [Schema.org](https://schema.org/).
+Under vises det bruk med felt og datatyper basert på henholdsvis [CDV-NO](https://informasjonsforvaltning.github.io/cdvno/) og [Schema.org](https://schema.org/).
 
 Det finnes andre syntaks/format også, som f.eks. [OpenGraph](https://ogp.me). I prinsippet bør man forvalte og vedlikeholde en guide for mapping mot de til enhver mest aktuelle formatene.
 
 #### Kobling mellom informasjonsmodell og CDV-NO og Schema.org
 
-| **Metadata-felt**       | **CDV-NO**      | *datatype*           | | **Schema.org** | *datatype*                           |
+| **Metadata-felt**       | **[CDV-NO](https://informasjonsforvaltning.github.io/cdvno/)**      | *datatype*           | | **[Schema.org](https://schema.org/)** | *datatype*                           |
 |-------------------------|-----------------|----------------------|-|----------------|--------------------------------------|
 | **Utgiver**             | dct:publisher   | org:Organization     | | publisher      | Organization (legalName, identifier) |
 | **Produsent**           | dct:creator     | org:Organization     | | author         | Organization (legalName, identifier) |
